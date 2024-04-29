@@ -1,26 +1,26 @@
 const swconf = {
   
-    cacheName: 'chirpy-1714428998',resources: [
-      '/https://redesxuquer.github.io/kk/assets/css/jekyll-theme-chirpy.css',
-      '/https://redesxuquer.github.io/kk/',
+    cacheName: 'chirpy-1714429150',resources: [
+      '/rx.github.io/assets/css/jekyll-theme-chirpy.css',
+      '/rx.github.io/',
       
-        '/https://redesxuquer.github.io/kk/categories/',
+        '/rx.github.io/categories/',
       
-        '/https://redesxuquer.github.io/kk/tags/',
+        '/rx.github.io/tags/',
       
-        '/https://redesxuquer.github.io/kk/archives/',
+        '/rx.github.io/archives/',
       
-        '/https://redesxuquer.github.io/kk/about/',
+        '/rx.github.io/about/',
       
 
       
       
-        '/https://redesxuquer.github.io/kk/assets/js/dist/categories.min.js',
-        '/https://redesxuquer.github.io/kk/assets/js/dist/commons.min.js',
-        '/https://redesxuquer.github.io/kk/assets/js/dist/home.min.js',
-        '/https://redesxuquer.github.io/kk/assets/js/dist/misc.min.js',
-        '/https://redesxuquer.github.io/kk/assets/js/dist/page.min.js',
-        '/https://redesxuquer.github.io/kk/assets/js/dist/post.min.js'
+        '/rx.github.io/assets/js/dist/categories.min.js',
+        '/rx.github.io/assets/js/dist/commons.min.js',
+        '/rx.github.io/assets/js/dist/home.min.js',
+        '/rx.github.io/assets/js/dist/misc.min.js',
+        '/rx.github.io/assets/js/dist/page.min.js',
+        '/rx.github.io/assets/js/dist/post.min.js'
     ],allowHosts: [
       
           'fonts.googleapis.com',
