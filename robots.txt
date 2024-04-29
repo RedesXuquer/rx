@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: /rx.github.io/sitemap.xml
+Sitemap: /kk/sitemap.xml
