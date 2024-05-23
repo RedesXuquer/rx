@@ -2,10 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://redesxuquer.github.io/rx/posts/text/</loc>
-<lastmod>2019-08-08T03:33:00+00:00</lastmod>
+<lastmod>2019-08-08T05:33:00+02:00</lastmod>
+</url>
+<url>
+<loc>https://redesxuquer.github.io/rx/posts/Instalacion-Docker/</loc>
+<lastmod>2024-05-23T06:00:00+02:00</lastmod>
 </url>
 <url>
 <loc>https://redesxuquer.github.io/rx/categories/</loc>
+<<<<<<< HEAD
 <lastmod>2024-05-23T21:17:55+00:00</lastmod>
 </url>
 <url>
@@ -19,6 +24,21 @@
 <url>
 <loc>https://redesxuquer.github.io/rx/about/</loc>
 <lastmod>2024-05-23T21:17:55+00:00</lastmod>
+=======
+<lastmod>2024-05-23T13:37:12+02:00</lastmod>
+</url>
+<url>
+<loc>https://redesxuquer.github.io/rx/tags/</loc>
+<lastmod>2024-05-23T13:37:12+02:00</lastmod>
+</url>
+<url>
+<loc>https://redesxuquer.github.io/rx/archives/</loc>
+<lastmod>2024-05-23T13:37:12+02:00</lastmod>
+</url>
+<url>
+<loc>https://redesxuquer.github.io/rx/about/</loc>
+<lastmod>2024-05-23T13:37:12+02:00</lastmod>
+>>>>>>> 5bf1ee321f47662840832ce13f3cc1f490ee5ac8
 </url>
 <url>
 <loc>https://redesxuquer.github.io/rx/</loc>
