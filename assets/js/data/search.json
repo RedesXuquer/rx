@@ -1,7 +1,7 @@
 [
   
   {
-    "title": "Instalación Docker y ejemplos",
+    "title": "Instalación de Plex con snap",
     "url": "/rx/posts/Instalacion-Plex-Snapd/",
     "categories": "Blogging, Demo",
     "tags": "typography",
@@ -14,7 +14,7 @@
 
     
     "snippet": "Instalación de Plex Media Server con SnapPrerrequisitosAsegúrate de tener Snap instalado en tu sistema. La mayoría de las distribuciones modernas de Linux ya lo incluyen. Si no lo tienes, puedes in...",
-    "content": "Instalación de Plex Media Server con SnapPrerrequisitosAsegúrate de tener Snap instalado en tu sistema. La mayoría de las distribuciones modernas de Linux ya lo incluyen. Si no lo tienes, puedes instalarlo siguiendo las instrucciones en snapcraft.io.Instalación de Plex Media Server  Actualizar el sistema:  Abre una terminal y actualiza el índice de paquetes de tu sistema:     sudo apt update sudo apt upgrade        Instalar Snap (si no está instalado):  Si Snap no está instalado, puedes hacerlo con el siguiente comando:      sudo apt install snapd        Instalar Plex Media Server:sudo snap install plexmediaserver  Verificar la instalación:Configuración de Plex Media Server  Acceder a la interfaz web de Plex:  Abre un navegador web.  Navega a http://localhost:32400/web si estás accediendo desde la misma máquina donde instalaste Plex.  Si estás accediendo desde otra máquina en la misma red, reemplaza localhost con la dirección IP de tu servidor Plex.  Configuración inicial:  Sigue las instrucciones en pantalla para configurar Plex Media Server.  Necesitarás crear una cuenta de Plex o iniciar sesión con una cuenta existente.  Añadir bibliotecas de medios:  Durante la configuración, se te pedirá que añadas bibliotecas de medios.  Selecciona las carpetas que contienen tus archivos de video, música y fotos para que Plex pueda indexarlos y organizarlos."
+    "content": "Instalación de Plex Media Server con SnapPrerrequisitosAsegúrate de tener Snap instalado en tu sistema. La mayoría de las distribuciones modernas de Linux ya lo incluyen. Si no lo tienes, puedes instalarlo siguiendo las instrucciones en snapcraft.io.Instalación de Plex Media Server  Actualizar el sistema:  Abre una terminal y actualiza el índice de paquetes de tu sistema:     sudo apt update sudo apt upgrade        Instalar Snap (si no está instalado):  Si Snap no está instalado, puedes hacerlo con el siguiente comando:      sudo apt install snapd        Instalar Plex Media Server:    sudo snap install plexmediaserver        Verificar la instalación:Configuración de Plex Media Server  Acceder a la interfaz web de Plex:  Abre un navegador web.  Navega a http://localhost:32400/web si estás accediendo desde la misma máquina donde instalaste Plex.  Si estás accediendo desde otra máquina en la misma red, reemplaza localhost con la dirección IP de tu servidor Plex.  Configuración inicial:  Sigue las instrucciones en pantalla para configurar Plex Media Server.  Necesitarás crear una cuenta de Plex o iniciar sesión con una cuenta existente.  Añadir bibliotecas de medios:  Durante la configuración, se te pedirá que añadas bibliotecas de medios.  Selecciona las carpetas que contienen tus archivos de video, música y fotos para que Plex pueda indexarlos y organizarlos."
   },
   
   {
