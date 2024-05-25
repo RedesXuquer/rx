@@ -4,7 +4,7 @@
   <id>https://redesxuquer.github.io/rx/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-05-24T16:54:09+00:00</updated>
+  <updated>2024-05-25T15:06:17+00:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://redesxuquer.github.io/rx/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>Instalacion Docker y FreeScout</title>
-    <link href="https://redesxuquer.github.io/rx/posts/Instalacion-Freescout/" rel="alternate" type="text/html" title="Instalacion Docker y FreeScout" />
+    <title>Instalación Docker y ejemplos</title>
+    <link href="https://redesxuquer.github.io/rx/posts/Instalacion-Plex-Snapd/" rel="alternate" type="text/html" title="Instalación Docker y ejemplos" />
     <published>2024-05-23T04:00:00+00:00</published>
   
     <updated>2024-05-23T04:00:00+00:00</updated>
   
-    <id>https://redesxuquer.github.io/rx/posts/Instalacion-Freescout/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/Instalacion-Freescout/" />
+    <id>https://redesxuquer.github.io/rx/posts/Instalacion-Plex-Snapd/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/Instalacion-Plex-Snapd/" />
     <author>
       <name>Luis</name>
     </author>
@@ -48,19 +48,17 @@
 
 
 
-      Instalación de Docker y Docker Compose
-Set up Docker’s apt repository.
+      Instalación de Plex Media Server con Snap
 
-# Add Docker's official GPG key:
-sudo apt-get update
-sudo apt-get install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
+Prerrequisitos
+Asegúrate de tener Snap instalado en tu sistema. La mayoría de las distribuciones modernas de Linux ya lo incluyen. Si no lo tienes, puedes instalarlo siguiendo las instrucciones en snapcraft.io.
 
-# Add the repository to Apt sources:
-echo \
-  "deb...
+Instalación de Plex Media Server
+
+
+  Actualizar el sistema:
+  Abre una terminal y actualiza el índice de paquetes de tu sistema:
+     sudo apt...
     </summary>
   
 
@@ -68,14 +66,14 @@ echo \
 
   
   <entry>
-    <title>Instalacion Docker</title>
-    <link href="https://redesxuquer.github.io/rx/posts/Instalacion-Docker/" rel="alternate" type="text/html" title="Instalacion Docker" />
+    <title>Instalación Docker y ejemplos</title>
+    <link href="https://redesxuquer.github.io/rx/posts/Instalacion-Docker-Ejemplos-copy/" rel="alternate" type="text/html" title="Instalación Docker y ejemplos" />
     <published>2024-05-23T04:00:00+00:00</published>
   
     <updated>2024-05-23T04:00:00+00:00</updated>
   
-    <id>https://redesxuquer.github.io/rx/posts/Instalacion-Docker/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/Instalacion-Docker/" />
+    <id>https://redesxuquer.github.io/rx/posts/Instalacion-Docker-Ejemplos-copy/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/Instalacion-Docker-Ejemplos-copy/" />
     <author>
       <name>Luis</name>
     </author>
@@ -96,88 +94,9 @@ echo \
 
 
 
-      Instalación de Docker
-Set up Docker’s apt repository.
+      ¿Qué es Docker?
 
-# Add Docker's official GPG key:
-sudo apt-get update
-sudo apt-get install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
-
-# Add the repository to Apt sources:
-echo \
-  "deb [arch=$(dpkg --p...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Text and Typography</title>
-    <link href="https://redesxuquer.github.io/rx/posts/text/" rel="alternate" type="text/html" title="Text and Typography" />
-    <published>2019-08-08T03:33:00+00:00</published>
-  
-    <updated>2019-08-08T03:33:00+00:00</updated>
-  
-    <id>https://redesxuquer.github.io/rx/posts/text/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/text/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Demo" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      «««&amp;lt; HEAD
-Headings Hola mundo
-=======
-Headings
-
-  
-    
-      
-        
-          
-            
-              b9e7f069fa38141f5b5cba8b3506ad318c821702
-            
-          
-        
-      
-    
-  
-
-
-
-
-H1 - heading
-
-H2 - heading
-
-H3 - heading
-
-H4 - heading
-
-
-Paragraph
-
-Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur p...
+Docker es una plataforma de software que permite crear, probar y desplegar aplicaciones rápidamente. Utiliza la tecnología de contenedores, que agrupa una aplicación y todas sus dependencias en un único paquete llamado contenedor. Este contenedor puede ejecutarse de manera consistente en cualquier entorno, ya sea en una computadora personal, en servidores locales o en la nube. ...
     </summary>
   
 
