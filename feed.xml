@@ -4,7 +4,7 @@
   <id>https://redesxuquer.github.io/rx/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-07-02T10:09:43+00:00</updated>
+  <updated>2024-07-02T10:11:07+00:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://redesxuquer.github.io/rx/</uri>
@@ -96,7 +96,9 @@ echo \
 
 
 
-      Instalación de Docker
+      Hola mundo
+
+Instalación de Docker
 Set up Docker’s apt repository.
 
 # Add Docker's official GPG key:
@@ -108,7 +110,7 @@ sudo chmod a+r /etc/apt/keyrings/docker.asc
 
 # Add the repository to Apt sources:
 echo \
-  "deb [arch=$(dpkg --p...
+  "deb [arc...
     </summary>
   
 
