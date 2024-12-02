@@ -4,7 +4,7 @@
   <id>https://redesxuquer.github.io/rx/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-07-02T10:25:54+00:00</updated>
+  <updated>2024-12-02T20:25:43+00:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://redesxuquer.github.io/rx/</uri>
@@ -20,14 +20,51 @@
 
   
   <entry>
+    <title>Comandos básicos de Linux</title>
+    <link href="https://redesxuquer.github.io/rx/posts/Comandos-Linux-Basicos/" rel="alternate" type="text/html" title="Comandos básicos de Linux" />
+    <published>2024-12-02T04:00:00+00:00</published>
+  
+    <updated>2024-12-02T04:00:00+00:00</updated>
+  
+    <id>https://redesxuquer.github.io/rx/posts/Comandos-Linux-Basicos/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/Comandos-Linux-Basicos/" />
+    <author>
+      <name>Luis</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Demo" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Instalación Docker y FreeScout</title>
-    <link href="https://redesxuquer.github.io/rx/posts/Instalacion-Freescout/" rel="alternate" type="text/html" title="Instalación Docker y FreeScout" />
+    <link href="https://redesxuquer.github.io/rx/posts/Instalacion-Freescout-copy-2/" rel="alternate" type="text/html" title="Instalación Docker y FreeScout" />
     <published>2024-05-23T04:00:00+00:00</published>
   
     <updated>2024-05-23T04:00:00+00:00</updated>
   
-    <id>https://redesxuquer.github.io/rx/posts/Instalacion-Freescout/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/Instalacion-Freescout/" />
+    <id>https://redesxuquer.github.io/rx/posts/Instalacion-Freescout-copy-2/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/Instalacion-Freescout-copy-2/" />
     <author>
       <name>Luis</name>
     </author>
@@ -72,7 +109,7 @@ echo \
     <link href="https://redesxuquer.github.io/rx/posts/Instalacion-Docker/" rel="alternate" type="text/html" title="Instalación Docker" />
     <published>2024-05-23T04:00:00+00:00</published>
   
-    <updated>2024-05-23T04:00:00+00:00</updated>
+    <updated>2024-05-24T17:10:19+00:00</updated>
   
     <id>https://redesxuquer.github.io/rx/posts/Instalacion-Docker/</id>
     <content src="https://redesxuquer.github.io/rx/posts/Instalacion-Docker/" />
@@ -96,19 +133,9 @@ echo \
 
 
 
-      Instalación de Docker
-Set up Docker’s apt repository.
+      ¿Qué es Docker?
 
-# Add Docker's official GPG key:
-sudo apt-get update
-sudo apt-get install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
-
-# Add the repository to Apt sources:
-echo \
-  "deb [arch=$(dpkg --p...
+Docker es una plataforma de software que permite crear, desplegar y gestionar aplicaciones en contenedores. Los contenedores son entornos ligeros y portátiles que contienen todo lo necesario para ejecutar una aplicación, incluyendo el código, las dependencias, las bibliotecas y el sistema operativo. Esto asegura que la aplicación se ejecute de manera consistente en cualquier en...
     </summary>
   
 
@@ -200,48 +227,6 @@ Procedimiento:
 
 1. Introducción a la Capa de Sesión
 La C...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>MongoDB</title>
-    <link href="https://redesxuquer.github.io/rx/posts/MongoDB/" rel="alternate" type="text/html" title="MongoDB" />
-    <published>2024-02-12T11:00:00+00:00</published>
-  
-    <updated>2024-02-12T11:00:00+00:00</updated>
-  
-    <id>https://redesxuquer.github.io/rx/posts/MongoDB/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/MongoDB/" />
-    <author>
-      <name>your_full_name</name>
-    </author>
-
-  
-    
-    <category term="Sistemas Microinformáticos y Redes" />
-    
-    <category term="Servicios en red" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      MongoDB es un sistema de gestión de bases de datos NoSQL, lo que significa que no sigue el modelo relacional tradicional de las bases de datos SQL. En cambio, utiliza un enfoque basado en documentos, donde los datos se almacenan en documentos JSON (JavaScript Object Notation) en lugar de en filas y columnas.
-
-Algunas características clave de MongoDB son:
-
-
-  
-    Flexibilidad del esquema: A dif...
     </summary>
   
 

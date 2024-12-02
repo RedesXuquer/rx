@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@twitter_username" />
 <meta name="twitter:creator" content="@Luis" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Luis"},"dateModified":"2024-05-23T04:00:00+00:00","datePublished":"2024-05-23T04:00:00+00:00","description":"Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.","headline":"Instalación Docker","image":{"lqip":"data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA","alt":"Responsive rendering of Chirpy theme on multiple devices.","url":"https://redesxuquer.github.iorx//commons/devices-mockup.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://redesxuquer.github.io/rx/posts/Instalacion-Docker/"},"url":"https://redesxuquer.github.io/rx/posts/Instalacion-Docker/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Luis"},"dateModified":"2024-05-24T17:10:19+00:00","datePublished":"2024-05-23T04:00:00+00:00","description":"Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.","headline":"Instalación Docker","image":{"lqip":"data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA","alt":"Responsive rendering of Chirpy theme on multiple devices.","url":"https://redesxuquer.github.iorx//commons/devices-mockup.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://redesxuquer.github.io/rx/posts/Instalacion-Docker/"},"url":"https://redesxuquer.github.io/rx/posts/Instalacion-Docker/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -664,10 +664,151 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
 
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
   
 
   
@@ -719,6 +860,29 @@
 
       <!-- lastmod date -->
       
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1716570619"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  May 24, 2024
+</time>
+
+        </span>
+      
 
       
         
@@ -769,9 +933,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="174 words"
+  title="736 words"
 >
-  <em>1 min</em> read</span>
+  <em>4 min</em> read</span>
 
       </div>
       <!-- .d-flex -->
@@ -780,7 +944,35 @@
   </header>
 
   <div class="content">
-    <h1 id="instalación-de-docker">Instalación de Docker</h1>
+    <h1 id="qué-es-docker">¿Qué es Docker?</h1>
+
+<p>Docker es una plataforma de software que permite crear, desplegar y gestionar aplicaciones en contenedores. Los contenedores son entornos ligeros y portátiles que contienen todo lo necesario para ejecutar una aplicación, incluyendo el código, las dependencias, las bibliotecas y el sistema operativo. Esto asegura que la aplicación se ejecute de manera consistente en cualquier entorno, ya sea en la máquina del desarrollador, en un servidor de producción, o en la nube.</p>
+
+<h2 id="componentes-clave-de-docker"><span class="me-2">Componentes Clave de Docker</span><a href="#componentes-clave-de-docker" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>Docker Engine: El motor de Docker es el núcleo de la plataforma y se encarga de crear, ejecutar y gestionar los contenedores.</li>
+  <li>Docker Hub: Un repositorio en línea donde los desarrolladores pueden compartir y descargar imágenes de contenedores preconfiguradas.</li>
+  <li>Dockerfile: Un archivo de texto que contiene instrucciones sobre cómo construir una imagen de Docker. Define los pasos necesarios para instalar el software y sus dependencias.</li>
+  <li>Imágenes de Docker: Plantillas inmutables que contienen un sistema de archivos y todas las dependencias necesarias para ejecutar una aplicación.</li>
+  <li>Contenedores de Docker: Instancias en ejecución de imágenes de Docker. Son ligeros y se ejecutan de manera aislada unos de otros.</li>
+</ul>
+
+<h2 id="ventajas-de-usar-docker"><span class="me-2">Ventajas de Usar Docker</span><a href="#ventajas-de-usar-docker" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>Portabilidad: Los contenedores se pueden ejecutar en cualquier lugar donde Docker esté instalado, asegurando que las aplicaciones se comporten de la misma manera en diferentes entornos.</li>
+  <li>Aislamiento: Cada contenedor funciona de manera aislada, lo que significa que los conflictos de dependencias se eliminan.</li>
+  <li>Eficiencia: Los contenedores son más ligeros que las máquinas virtuales tradicionales porque comparten el núcleo del sistema operativo.</li>
+  <li>Despliegue Rápido: Las aplicaciones se pueden desplegar rápidamente y escalar fácilmente.</li>
+</ul>
+
+<h2 id="casos-de-uso"><span class="me-2">Casos de Uso</span><a href="#casos-de-uso" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>Desarrollo y Pruebas: Docker permite a los desarrolladores crear entornos de desarrollo replicables.</li>
+  <li>Despliegue en Producción: Facilita la implementación continua y la integración continua (CI/CD).</li>
+  <li>Microservicios: Docker es ideal para arquitecturas de microservicios, donde cada servicio puede ser empaquetado y gestionado de manera independiente.</li>
+</ul>
+
+<h1 id="instalación-de-docker">Instalación de Docker</h1>
 <p>Set up Docker’s apt repository.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
@@ -829,6 +1021,116 @@ sudo apt-get update
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 </pre></td><td class="rouge-code"><pre>sudo docker run hello-world
 </pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="ejecuta-tu-primer-contenedor"><span class="me-2">Ejecuta tu primer contenedor</span><a href="#ejecuta-tu-primer-contenedor" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ul>
+  <li>Ejecuta el siguiente comando para correr una instancia del contenedor hello-world:
+    <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>docker run hello-world
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+</ul>
+
+<p>Este comando descarga una imagen llamada hello-world desde Docker Hub, la ejecuta en un contenedor y muestra un mensaje de saludo.</p>
+
+<h1 id="comandos-docker">Comandos Docker</h1>
+
+<h2 id="trabajar-con-imágenes"><span class="me-2">Trabajar con imágenes:</span><a href="#trabajar-con-imágenes" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<p>En Docker, las imágenes son plantillas que se utilizan para crear contenedores. Una imagen incluye todo lo necesario para ejecutar una aplicación: el código, las dependencias, las bibliotecas y el sistema operativo. Aquí tienes una guía sobre cómo trabajar con imágenes de Docker:</p>
+
+<h3 id="comandos-básicos-para-imágenes-de-docker"><span class="me-2">Comandos Básicos para imágenes de Docker</span><a href="#comandos-básicos-para-imágenes-de-docker" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>Para ver todas las imágenes disponibles en tu sistema:</p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>docker images
+</pre></td></tr></tbody></table></code></div></div>
+<p>Este comando mostrará una lista de todas las imágenes, incluyendo el REPOSITORY, TAG, IMAGE ID, CREATED y SIZE.</p>
+
+<h3 id="descargar-imágenes"><span class="me-2">Descargar imágenes:</span><a href="#descargar-imágenes" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>Para descargar una imagen desde Docker Hub:</p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>docker pull &lt;nombre_imagen&gt;:&lt;tag&gt;
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>Ejemplo:</p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>docker pull ubuntu:latest
+</pre></td></tr></tbody></table></code></div></div>
+
+<h3 id="construir-una-imagen-desde-un-dockerfile"><span class="me-2">Construir una Imagen desde un Dockerfile:</span><a href="#construir-una-imagen-desde-un-dockerfile" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>Crea un archivo Dockerfile y añade las instrucciones para construir tu imagen. Luego, ejecuta:</p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>docker build -t &lt;nombre_imagen&gt;:&lt;tag&gt; .
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>Ejemplo:</p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>docker build -t my-python-app:latest .
+</pre></td></tr></tbody></table></code></div></div>
+
+<h3 id="eliminar-imágenes"><span class="me-2">Eliminar Imágenes:</span><a href="#eliminar-imágenes" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>Para eliminar una imagen:</p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>docker rmi &lt;image_id&gt;
+</pre></td></tr></tbody></table></code></div></div>
+<p>Ejemplo:</p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>docker rmi d1b55fd07600
+</pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="listar-contenedores"><span class="me-2">Listar contenedores:</span><a href="#listar-contenedores" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ul>
+  <li>Para ver los contenedores en ejecución:
+    <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>docker ps
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+  <li>Para ver todos los contenedores, incluidos los detenidos:
+    <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>docker ps -a
+</pre></td></tr></tbody></table></code></div>    </div>
+    <h2 id="descargar-imágenes-1"><span class="me-2">Descargar imágenes:</span><a href="#descargar-imágenes-1" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+  </li>
+  <li>Descarga una imagen desde Docker Hub, por ejemplo, Ubuntu:
+    <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>docker pull hello-world
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+  <li>Ejecutar comandos en un contenedor:
+    <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>docker run -it hello-world /bin/bash
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+  <li>Esto abre una terminal dentro del contenedor donde puedes ejecutar comandos de Linux.</li>
+</ul>
+
+<h1 id="instalación-de-">Instalación de …</h1>
 
 <p>Una vez ya está instalado Docker instalamos la aplicación:</p>
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
@@ -982,6 +1284,13 @@ TZ	“UTC”</p>
         
         
         <li class="text-truncate lh-lg">
+          <a href="/rx/posts/Comandos-Linux-Basicos/">Comandos básicos de Linux</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/rx/posts/Instalacion-Docker/">Instalación Docker</a>
         </li>
       
@@ -989,7 +1298,7 @@ TZ	“UTC”</p>
         
         
         <li class="text-truncate lh-lg">
-          <a href="/rx/posts/Instalacion-Freescout/">Instalación Docker y FreeScout</a>
+          <a href="/rx/posts/Instalacion-Freescout-copy-2/">Instalación Docker y FreeScout</a>
         </li>
       
         
@@ -1004,13 +1313,6 @@ TZ	“UTC”</p>
         
         <li class="text-truncate lh-lg">
           <a href="/rx/posts/Capa-sesion/">Capa de sesión</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/rx/posts/MongoDB/">MongoDB</a>
         </li>
       
     </ul>
@@ -1138,75 +1440,10 @@ TZ	“UTC”</p>
     
     
     
-      
-    
   
     
     
     
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -1291,69 +1528,50 @@ TZ	“UTC”</p>
     
     
     
-      
-        
-        
-
   
     
     
     
-    
-      
     
   
     
     
     
     
-      
-        
-        
-
   
     
     
     
-    
-      
     
   
     
     
     
     
-      
+  
+    
+    
+    
     
   
     
     
     
     
-      
-        
-        
-
   
     
     
     
-    
-      
     
   
     
     
     
     
-      
-    
   
     
     
     
-    
-      
     
   
     
@@ -1369,7 +1587,103 @@ TZ	“UTC”</p>
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -1383,7 +1697,10 @@ TZ	“UTC”</p>
     
     
     
-      
+  
+    
+    
+    
     
   
     
@@ -1391,6 +1708,47 @@ TZ	“UTC”</p>
     
     
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
     
   
     
@@ -1407,28 +1765,9 @@ TZ	“UTC”</p>
     
     
       
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
+        
+        
+
   
     
     
@@ -1455,31 +1794,31 @@ TZ	“UTC”</p>
         <a class="post-tag btn btn-outline-primary" href="/rx/tags/redes-locales/">redes locales</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/rx/tags/smr/">smr</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/rx/tags/teor%C3%ADa/">teoría</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/rx/tags/tsmr/">tsmr</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/rx/tags/smr/">smr</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/rx/tags/typography/">typography</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/rx/tags/binario/">binario</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/rx/tags/decimal/">decimal</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/rx/tags/hexadecimal/">hexadecimal</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/rx/tags/2dam/">2DAM</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/rx/tags/acceso-a-datos/">acceso a datos</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/rx/tags/binario/">binario</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/rx/tags/cheatsheet/">Cheatsheet</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/rx/tags/dam/">DAM</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/rx/tags/decimal/">decimal</a>
       
     </div>
   </section>
@@ -1492,6 +1831,11 @@ TZ	“UTC”</p>
               
 
 
+
+  <section id="toc-wrapper" class="ps-0 pe-4">
+    <h2 class="panel-heading ps-3 pt-2 mb-2">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
 
 
             
@@ -1541,19 +1885,19 @@ TZ	“UTC”</p>
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 
 
@@ -1569,59 +1913,7 @@ TZ	“UTC”</p>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/rx/posts/text/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1565235180"
-  data-df="ll"
-  
->
-  Aug  8, 2019
-</time>
-
-              <h4 class="pt-0 my-2">Text and Typography</h4>
-              <div class="text-muted">
-                <p>
-                  
-
-
-
-
-
-                  «««&amp;lt; HEAD
-Headings Hola mundo
-=======
-Headings
-
-  
-    
-      
-        
-          
-            
-              b9e7f069fa38141f5b5cba8b3506ad318c821702
-            
-          
-        
-      
-   ...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/rx/posts/Instalacion-Freescout/" class="post-preview card h-100">
+          <a href="/rx/posts/Instalacion-Freescout-copy-2/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1675,6 +1967,43 @@ sudo apt-get install ca-certificates curl
           </a>
         </article>
       
+        <article class="col">
+          <a href="/rx/posts/Comandos-Linux-Basicos/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1733112000"
+  data-df="ll"
+  
+>
+  Dec  2, 2024
+</time>
+
+              <h4 class="pt-0 my-2">Comandos básicos de Linux</h4>
+              <div class="text-muted">
+                <p>
+                  
+
+
+
+
+
+                  
+
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
     </nav>
   </aside>
   <!-- #related-posts -->
@@ -1700,7 +2029,7 @@ sudo apt-get install ca-certificates curl
 
   
     <a
-      href="rx//posts/Instalacion-Freescout/"
+      href="rx//posts/Instalacion-Freescout-copy-2/"
       class="btn btn-outline-primary"
       aria-label="Newer"
     >
@@ -1873,75 +2202,10 @@ sudo apt-get install ca-certificates curl
     
     
     
-      
-    
   
     
     
     
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -2026,69 +2290,50 @@ sudo apt-get install ca-certificates curl
     
     
     
-      
-        
-        
-
   
     
     
     
-    
-      
     
   
     
     
     
     
-      
-        
-        
-
   
     
     
     
-    
-      
     
   
     
     
     
     
-      
+  
+    
+    
+    
     
   
     
     
     
     
-      
-        
-        
-
   
     
     
     
-    
-      
     
   
     
     
     
     
-      
-    
   
     
     
     
-    
-      
     
   
     
@@ -2104,7 +2349,103 @@ sudo apt-get install ca-certificates curl
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -2118,7 +2459,10 @@ sudo apt-get install ca-certificates curl
     
     
     
-      
+  
+    
+    
+    
     
   
     
@@ -2126,6 +2470,47 @@ sudo apt-get install ca-certificates curl
     
     
       
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
     
   
     
@@ -2142,28 +2527,9 @@ sudo apt-get install ca-certificates curl
     
     
       
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
+        
+        
+
   
     
     
@@ -2190,31 +2556,31 @@ sudo apt-get install ca-certificates curl
         <a class="post-tag btn btn-outline-primary" href="/rx/tags/redes-locales/">redes locales</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/rx/tags/smr/">smr</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/rx/tags/teor%C3%ADa/">teoría</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/rx/tags/tsmr/">tsmr</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/rx/tags/smr/">smr</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/rx/tags/typography/">typography</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/rx/tags/binario/">binario</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/rx/tags/decimal/">decimal</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/rx/tags/hexadecimal/">hexadecimal</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/rx/tags/2dam/">2DAM</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/rx/tags/acceso-a-datos/">acceso a datos</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/rx/tags/binario/">binario</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/rx/tags/cheatsheet/">Cheatsheet</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/rx/tags/dam/">DAM</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/rx/tags/decimal/">decimal</a>
       
     </div>
   </section>
@@ -2375,9 +2741,16 @@ sudo apt-get install ca-certificates curl
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/en.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js,npm/mermaid@10.8.0/dist/mermaid.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/en.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js,npm/tocbot@4.25.0/dist/tocbot.min.js,npm/mermaid@10.8.0/dist/mermaid.min.js"></script>
 
 
 
