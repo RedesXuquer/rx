@@ -4,7 +4,7 @@
   <id>https://redesxuquer.github.io/rx/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-12-02T20:27:11+00:00</updated>
+  <updated>2024-12-02T21:52:49+00:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://redesxuquer.github.io/rx/</uri>
@@ -48,8 +48,16 @@
 
 
 
-      
+      Comandos Básicos de Linux
 
+Navegación y Gestión de Archivos
+
+
+  cd: Cambia el directorio actual (cd /home/user cambia al directorio /home/user)
+  pwd: Muestra la ruta del directorio actual
+  ls: Lista los archivos y carpetas del directorio actual
+  mkdir: Crea un nuevo directorio (mkdir mydir crea un nuevo directorio llamado mydir)
+  rmdir: Borra un directorio vacío (rmdir mydir borra el direct...
     </summary>
   
 

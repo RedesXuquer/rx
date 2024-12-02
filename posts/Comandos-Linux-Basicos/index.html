@@ -669,6 +669,71 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -769,9 +834,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="0 words"
+  title="1724 words"
 >
-  <em>1 min</em> read</span>
+  <em>9 min</em> read</span>
 
       </div>
       <!-- .d-flex -->
@@ -780,7 +845,302 @@
   </header>
 
   <div class="content">
-    
+    <h1 id="comandos-básicos-de-linux"><strong>Comandos Básicos de Linux</strong></h1>
+
+<p><strong>Navegación y Gestión de Archivos</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">cd</code>: Cambia el directorio actual (<code class="language-plaintext highlighter-rouge">cd /home/user</code> cambia al directorio <code class="language-plaintext highlighter-rouge">/home/user</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">pwd</code>: Muestra la ruta del directorio actual</li>
+  <li><code class="language-plaintext highlighter-rouge">ls</code>: Lista los archivos y carpetas del directorio actual</li>
+  <li><code class="language-plaintext highlighter-rouge">mkdir</code>: Crea un nuevo directorio (<code class="language-plaintext highlighter-rouge">mkdir mydir</code> crea un nuevo directorio llamado <code class="language-plaintext highlighter-rouge">mydir</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">rmdir</code>: Borra un directorio vacío (<code class="language-plaintext highlighter-rouge">rmdir mydir</code> borra el directorio <code class="language-plaintext highlighter-rouge">mydir</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">rm</code>: Borra un archivo o directorio (<code class="language-plaintext highlighter-rouge">rm myfile.txt</code> borra el archivo <code class="language-plaintext highlighter-rouge">myfile.txt</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">cp</code>: Copia un archivo o directorio (<code class="language-plaintext highlighter-rouge">cp myfile.txt /home/user/</code> copia el archivo <code class="language-plaintext highlighter-rouge">myfile.txt</code> al 
+directorio <code class="language-plaintext highlighter-rouge">/home/user</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">mv</code>: Mueve o renombra un archivo o directorio (<code class="language-plaintext highlighter-rouge">mv myfile.txt /home/user/</code> mueve el archivo <code class="language-plaintext highlighter-rouge">myfile.txt</code> 
+al directorio <code class="language-plaintext highlighter-rouge">/home/user</code>)</li>
+</ul>
+
+<p><strong>Gestión de Permisos</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">chmod</code>: Cambia los permisos de acceso a un archivo o directorio (<code class="language-plaintext highlighter-rouge">chmod 755 myfile.txt</code> cambia los 
+permisos de acceso del archivo <code class="language-plaintext highlighter-rouge">myfile.txt</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">chown</code>: Cambia el propietario y/o grupo de un archivo o directorio (<code class="language-plaintext highlighter-rouge">chown user:group myfile.txt</code> cambia 
+el propietario y grupo del archivo <code class="language-plaintext highlighter-rouge">myfile.txt</code>)</li>
+</ul>
+
+<p><strong>Procesos y Sesiones</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">ps</code>: Muestra la lista de procesos actuales</li>
+  <li><code class="language-plaintext highlighter-rouge">kill</code>: Borra un proceso (<code class="language-plaintext highlighter-rouge">kill 1234</code> borra el proceso con PID 1234)</li>
+  <li><code class="language-plaintext highlighter-rouge">bg</code>: Envía un proceso al fondo (<code class="language-plaintext highlighter-rouge">bg myprogram</code> envía el programa 
+<code class="language-plaintext highlighter-rouge">myprogram</code> al fondo)</li>
+  <li><code class="language-plaintext highlighter-rouge">fg</code>: Trae un proceso al primer plano (<code class="language-plaintext highlighter-rouge">fg myprogram</code> trae el programa 
+<code class="language-plaintext highlighter-rouge">myprogram</code> al primer plano)</li>
+</ul>
+
+<p><strong>Edición y Manipulación de Texto</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">cat</code>: Muestra el contenido de un archivo (<code class="language-plaintext highlighter-rouge">cat myfile.txt</code> muestra el 
+contenido del archivo <code class="language-plaintext highlighter-rouge">myfile.txt</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">grep</code>: Busca una cadena específica en un archivo o directorio (<code class="language-plaintext highlighter-rouge">grep 
+"hello" myfile.txt</code> busca la cadena <code class="language-plaintext highlighter-rouge">"hello"</code> en el archivo <code class="language-plaintext highlighter-rouge">myfile.txt</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">less</code>: Muestra el contenido de un archivo página a página (<code class="language-plaintext highlighter-rouge">less 
+myfile.txt</code> muestra el contenido del archivo <code class="language-plaintext highlighter-rouge">myfile.txt</code> página a 
+página)</li>
+  <li><code class="language-plaintext highlighter-rouge">more</code>: Muestra el contenido de un archivo página a página 
+(<code class="language-plaintext highlighter-rouge">more myfile.txt</code> muestra el contenido del archivo <code class="language-plaintext highlighter-rouge">myfile.txt</code> página a 
+página)</li>
+</ul>
+
+<p><strong>Sistema y Configuración</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">date</code>: Muestra la fecha actual</li>
+  <li><code class="language-plaintext highlighter-rouge">uptime</code>: Muestra el tiempo desde que se inició el sistema</li>
+  <li><code class="language-plaintext highlighter-rouge">whoami</code>: Muestra el nombre de usuario actual</li>
+  <li><code class="language-plaintext highlighter-rouge">hostname</code>: Muestra el nombre del sistema</li>
+  <li><code class="language-plaintext highlighter-rouge">man</code>: Muestra la ayuda para un comando o función (<code class="language-plaintext highlighter-rouge">man ls</code> muestra la 
+ayuda para el comando <code class="language-plaintext highlighter-rouge">ls</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">help</code>: Muestra la ayuda para un comando o función (<code class="language-plaintext highlighter-rouge">help ls</code> muestra 
+la ayuda para el comando <code class="language-plaintext highlighter-rouge">ls</code>)</li>
+</ul>
+
+<p><strong>Otros Comandos</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">exit</code>: Cierra la sesión actual</li>
+  <li><code class="language-plaintext highlighter-rouge">clear</code>: Limpia la pantalla</li>
+  <li><code class="language-plaintext highlighter-rouge">history</code>: Muestra la lista de comandos ejecutados anteriormente</li>
+  <li><code class="language-plaintext highlighter-rouge">!!</code>: Ejecuta el último comando ejecutado</li>
+  <li><code class="language-plaintext highlighter-rouge">!n</code>: Ejecuta el n-ésimo comando en la historia</li>
+</ul>
+
+<h1 id="comandos-intermedios-de-linux"><strong>Comandos Intermedios de Linux</strong></h1>
+
+<p><strong>Gestión de Procesos y Sesiones</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">top</code>: Muestra la lista de procesos actuales, incluyendo su uso de CPU y memoria</li>
+  <li><code class="language-plaintext highlighter-rouge">htop</code>: Una versión más avanzada del comando <code class="language-plaintext highlighter-rouge">top</code></li>
+  <li><code class="language-plaintext highlighter-rouge">pkill</code>: Busca y mata un proceso específico (<code class="language-plaintext highlighter-rouge">pkill -9 firefox</code> mata el proceso <code class="language-plaintext highlighter-rouge">firefox</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">pgrep</code>: Busca un proceso específico por patrón de nombre (<code class="language-plaintext highlighter-rouge">pgrep -f "myprogram"</code> busca el proceso con el 
+nombre que contiene la cadena <code class="language-plaintext highlighter-rouge">"myprogram"</code>)</li>
+</ul>
+
+<p><strong>Gestión de Archivos y Permisos</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">tar</code>: Crea o extrae archivos en formato tar (<code class="language-plaintext highlighter-rouge">tar -cvzf myfile.tar.gz /home/user/myfile.txt</code> crea un 
+archivo tar comprimido llamado <code class="language-plaintext highlighter-rouge">myfile.tar.gz</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">gzip</code> y <code class="language-plaintext highlighter-rouge">gunzip</code>: Comprime y descomprime archivos con gzip (<code class="language-plaintext highlighter-rouge">gzip myfile.txt</code> compres el archivo 
+<code class="language-plaintext highlighter-rouge">myfile.txt</code>, y <code class="language-plaintext highlighter-rouge">gunzip myfile.txt.gz</code> descompres el archivo <code class="language-plaintext highlighter-rouge">myfile.txt.gz</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">chattr</code>: Modifica los atributos de un archivo o directorio (<code class="language-plaintext highlighter-rouge">chattr +i myfile.txt</code> establece el archivo 
+<code class="language-plaintext highlighter-rouge">myfile.txt</code> como inmutable)</li>
+  <li><code class="language-plaintext highlighter-rouge">lsof</code>: Muestra la lista de archivos abiertos por procesos (<code class="language-plaintext highlighter-rouge">lsof -p 1234</code> muestra la lista de archivos 
+abiertos por el proceso con PID 1234)</li>
+</ul>
+
+<p><strong>Gestión de Redes y Comunicación</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">netstat</code>: Muestra la información sobre las conexiones TCP y UDP (<code class="language-plaintext highlighter-rouge">netstat -an</code> muestra la información 
+sobre todas las conexiones TCP y UDP)</li>
+  <li><code class="language-plaintext highlighter-rouge">ss</code>: Muestra la información sobre las conexiones TCP, UDP y Unix domain sockets (<code class="language-plaintext highlighter-rouge">ss -antp</code> muestra la 
+información sobre todas las conexiones TCP, UDP y Unix domain sockets)</li>
+  <li><code class="language-plaintext highlighter-rouge">nc</code>: Establece una conexión con un host y puerto específico (<code class="language-plaintext highlighter-rouge">nc localhost 8080</code> establece una conexión 
+con el host <code class="language-plaintext highlighter-rouge">localhost</code> en el puerto <code class="language-plaintext highlighter-rouge">8080</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">curl</code>: Hace una solicitud HTTP o HTTPS a un servidor web (<code class="language-plaintext highlighter-rouge">curl -v http://example.com</code> hace una solicitud 
+GET a la URL <code class="language-plaintext highlighter-rouge">http://example.com</code>)</li>
+</ul>
+
+<p><strong>Gestión de Disco y Particiones</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">fdisk</code>: Edita las particiones del disco duro (<code class="language-plaintext highlighter-rouge">fdisk /dev/sda1</code> edita la partición <code class="language-plaintext highlighter-rouge">/dev/sda1</code>)</li>
+  <li>` parted<code class="language-plaintext highlighter-rouge">: Edita las particiones del disco duro (</code>parted /dev/sda1<code class="language-plaintext highlighter-rouge"> edita la partición </code>/dev/sda1`)</li>
+  <li><code class="language-plaintext highlighter-rouge">fsck</code>: Verifica y corrige errores en el sistema de archivos (<code class="language-plaintext highlighter-rouge">fsck /dev/sda1</code> verifica y corrige errores 
+en la partición <code class="language-plaintext highlighter-rouge">/dev/sda1</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">dumpe2fs</code>: Muestra la información detallada sobre un sistema de archivos ext2, ext3 o ext4 (<code class="language-plaintext highlighter-rouge">dumpe2fs -b 
+/dev/sda1</code> muestra la información detallada sobre la partición <code class="language-plaintext highlighter-rouge">/dev/sda1</code>)</li>
+</ul>
+
+<p><strong>Otros Comandos Intermedios</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">diff</code>: Compara dos archivos y muestra las diferencias entre ellos (<code class="language-plaintext highlighter-rouge">diff myfile.txt myotherfile.txt</code> 
+compara los archivos <code class="language-plaintext highlighter-rouge">myfile.txt</code> y <code class="language-plaintext highlighter-rouge">myotherfile.txt</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">patch</code>: Aplica un patch a un archivo o directorio (<code class="language-plaintext highlighter-rouge">patch -p1 &lt; patchfile.patch</code> aplica el patch 
+<code class="language-plaintext highlighter-rouge">patchfile.patch</code> al archivo actual)</li>
+  <li><code class="language-plaintext highlighter-rouge">make</code>: Compila un proyecto de desarrollo (<code class="language-plaintext highlighter-rouge">make all</code> compila todos los archivos del proyecto)</li>
+  <li><code class="language-plaintext highlighter-rouge">gpg</code>: Gestiona las claves GPG y los mensajes criptográficos (<code class="language-plaintext highlighter-rouge">gpg -e -o myencryptedfile.txt myfile.txt</code> 
+encripta el archivo <code class="language-plaintext highlighter-rouge">myfile.txt</code> con la clave actual)</li>
+</ul>
+
+<h1 id="comandos-avanzados-de-linux"><strong>Comandos Avanzados de Linux</strong></h1>
+
+<p><strong>Gestión de Procesos y Sesiones</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">strace</code>: Muestra la traza de sistema de un proceso (<code class="language-plaintext highlighter-rouge">strace -f -o trace.log myprogram</code> muestra la traza de 
+sistema del programa <code class="language-plaintext highlighter-rouge">myprogram</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">ltrace</code>: Muestra la traza de bibliotecas compartidas de un proceso (<code class="language-plaintext highlighter-rouge">ltrace -f -o ltrace.log myprogram</code> 
+muestra la traza de bibliotecas compartidas del programa <code class="language-plaintext highlighter-rouge">myprogram</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">pstack</code>: Muestra el stack de un proceso (<code class="language-plaintext highlighter-rouge">pstack 1234</code> muestra el stack del proceso con PID 1234)</li>
+  <li><code class="language-plaintext highlighter-rouge">gcore</code>: Captura el core dump de un proceso (<code class="language-plaintext highlighter-rouge">gcore -o corefile myprogram</code> captura el core dump del 
+programa <code class="language-plaintext highlighter-rouge">myprogram</code> y lo almacena en el archivo <code class="language-plaintext highlighter-rouge">corefile</code>)</li>
+</ul>
+
+<p><strong>Gestión de Archivos y Permisos</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">xfsdump</code>: Realiza una copia de seguridad de un sistema de archivos XFS (<code class="language-plaintext highlighter-rouge">xfsdump -f /dev/sda1 &gt; 
+backup.xfs</code> realiza una copia de seguridad del sistema de archivos <code class="language-plaintext highlighter-rouge">/dev/sda1</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">xfsrestore</code>: Restaura una copia de seguridad de un sistema de archivos XFS (<code class="language-plaintext highlighter-rouge">xfsrestore -f /dev/sda1 &lt; 
+backup.xfs</code> restaura la copia de seguridad del sistema de archivos <code class="language-plaintext highlighter-rouge">/dev/sda1</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">tune2fs</code>: Configura y ajusta el sistema de archivos ext2, ext3 o ext4 (<code class="language-plaintext highlighter-rouge">tune2fs -i 10000 /dev/sda1</code> 
+configura el sistema de archivos <code class="language-plaintext highlighter-rouge">/dev/sda1</code> para que tenga un tamaño máximo de 10 GB)</li>
+  <li><code class="language-plaintext highlighter-rouge">e2fsck</code>: Verifica y corrige errores en el sistema de archivos ext2, ext3 o ext4 (<code class="language-plaintext highlighter-rouge">e2fsck -f /dev/sda1</code> 
+verifica y corrige errores en la partición <code class="language-plaintext highlighter-rouge">/dev/sda1</code>)</li>
+</ul>
+
+<p><strong>Gestión de Disco y Particiones</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">ddrescue</code>: Realiza una copia de seguridad de un disco duro y restaura los datos en caso de fallo 
+(<code class="language-plaintext highlighter-rouge">ddrescue -b 4096 /dev/sda1 /dev/sdb1 &gt; backup.dd</code> realiza una copia de seguridad del disco duro <code class="language-plaintext highlighter-rouge">/dev/sda1</code> 
+y restaura los datos en caso de fallo)</li>
+  <li><code class="language-plaintext highlighter-rouge">mdadm</code>: Gestiona las configuraciones RAID (<code class="language-plaintext highlighter-rouge">mdadm --create --name=0 --level=5 /dev/sda1 /dev/sdb1 
+/dev/sdc1 &gt; raid.conf</code> crea una configuración RAID 5 con los dispositivos <code class="language-plaintext highlighter-rouge">/dev/sda1</code>, <code class="language-plaintext highlighter-rouge">/dev/sdb1</code>, y 
+<code class="language-plaintext highlighter-rouge">/dev/sdc1</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">partprobe</code>: Recarga la tabla de particiones del sistema (<code class="language-plaintext highlighter-rouge">partprobe -f /dev/sda1</code> recarga la tabla de 
+particiones de la partición <code class="language-plaintext highlighter-rouge">/dev/sda1</code>)</li>
+</ul>
+
+<p><strong>Otros Comandos Avanzados</strong></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">pamtester</code>: Prueba el módulo de autenticación PAM (<code class="language-plaintext highlighter-rouge">pamtester -t 1234 &gt; test.log</code> prueba el módulo de 
+autenticación PAM con el usuario 1234 y almacena los resultados en el archivo <code class="language-plaintext highlighter-rouge">test.log</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">gdb</code>: Realiza depuración y análisis de un programa (<code class="language-plaintext highlighter-rouge">gdb myprogram</code> inicia la depuración del programa 
+<code class="language-plaintext highlighter-rouge">myprogram</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">systemtap</code>: Captura información sobre el rendimiento y la actividad del sistema (<code class="language-plaintext highlighter-rouge">systemtap -c 10 &gt; 
+performance.stp</code> captura información durante 10 segundos sobre el rendimiento y la actividad del sistema)</li>
+  <li><code class="language-plaintext highlighter-rouge">oprofile</code>: Realiza análisis de rendimiento y depuración de un programa (<code class="language-plaintext highlighter-rouge">oprofile -c 10 &gt; profile.opro</code> 
+realiza análisis de rendimiento y depuración del programa durante 10 segundos)</li>
+</ul>
+
+<p>La redirección (o redirection) en Linux es una técnica que permite cambiar el destino de la salida de un 
+comando, o redirigir la entrada a un comando. Esta función es muy útil para automatizar tareas, realizar 
+pruebas y depuración de programas, y muchos otros propósitos.</p>
+
+<p>Existen dos tipos principales de redirección:</p>
+
+<ol>
+  <li><strong>Redirección de salida (&gt;)</strong>: Permite cambiar el destino de la salida de un comando.</li>
+  <li><strong>Redirección de entrada (&lt;)</strong>: Permite cambiar el origen de la entrada para un comando.</li>
+</ol>
+
+<h3 id="redirección-de-salida-"><span class="me-2">Redirección de salida (&gt;)</span><a href="#redirección-de-salida-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<hr />
+
+<p>La sintaxis básica para redirigir la salida de un comando es:</p>
+
+<p><code class="language-plaintext highlighter-rouge">comando &gt; archivo</code></p>
+
+<p>Donde <code class="language-plaintext highlighter-rouge">comando</code> es el comando que se ejecutará y <code class="language-plaintext highlighter-rouge">archivo</code> es el nombre del archivo donde se almacenarán los 
+resultados. Por ejemplo:</p>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">echo</span> <span class="s2">"Hello World!"</span> <span class="o">&gt;</span> hello.txt
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>En este ejemplo, el comando <code class="language-plaintext highlighter-rouge">echo</code> imprime la cadena “Hello World!” en la salida estándar (la pantalla), y 
+luego redirige la salida a un archivo llamado <code class="language-plaintext highlighter-rouge">hello.txt</code>. El contenido del archivo será igual al texto que 
+se imprimiría en la pantalla si no se hubiera realizado la redirección.</p>
+
+<h3 id="redirección-de-entrada-"><span class="me-2">Redirección de entrada (&lt;)</span><a href="#redirección-de-entrada-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<hr />
+
+<p>La sintaxis básica para redirigir la entrada de un comando es:</p>
+
+<p><code class="language-plaintext highlighter-rouge">comando &lt; archivo</code></p>
+
+<p>Donde <code class="language-plaintext highlighter-rouge">comando</code> es el comando que se ejecutará y <code class="language-plaintext highlighter-rouge">archivo</code> es el nombre del archivo que se utilizará como 
+entrada. Por ejemplo:</p>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">sort</span> &lt; numbers.txt <span class="o">&gt;</span> sorted_numbers.txt
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>En este ejemplo, el comando <code class="language-plaintext highlighter-rouge">sort</code> ordena la salida de un archivo llamado <code class="language-plaintext highlighter-rouge">numbers.txt</code> y luego redirige la 
+salida a otro archivo llamado <code class="language-plaintext highlighter-rouge">sorted_numbers.txt</code>. El contenido del archivo <code class="language-plaintext highlighter-rouge">sorted_numbers.txt</code> será igual 
+al resultado que se obtenería si se ejecutara el comando <code class="language-plaintext highlighter-rouge">sort numbers.txt</code> sin la redirección.</p>
+
+<h3 id="combinación-de-redirecciones"><span class="me-2">Combinación de redirecciones</span><a href="#combinación-de-redirecciones" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<hr />
+
+<p>Se pueden combinar varias redirecciones para controlar tanto la salida como la entrada de un comando. Por 
+ejemplo:</p>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">sort</span> &lt; numbers.txt <span class="o">&gt;</span> sorted_numbers.txt 2&gt; error.log
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>En este ejemplo, el comando <code class="language-plaintext highlighter-rouge">sort</code> ordena la salida de un archivo llamado <code class="language-plaintext highlighter-rouge">numbers.txt</code>, redirige la salida a 
+otro archivo llamado <code class="language-plaintext highlighter-rouge">sorted_numbers.txt</code>, y redirige las salidas de error (errores de ejecución) a un 
+archivo llamado <code class="language-plaintext highlighter-rouge">error.log</code>.</p>
+
+<h3 id="redirección-de-errores-2"><span class="me-2">Redirección de errores (2&gt;)</span><a href="#redirección-de-errores-2" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<hr />
+
+<p>La redirección de errores (2&gt;) se utiliza para reenviar los errores que producen los comandos. La sintaxis 
+básica es:</p>
+
+<p><code class="language-plaintext highlighter-rouge">comando 2&gt; archivo</code></p>
+
+<p>Donde <code class="language-plaintext highlighter-rouge">comando</code> es el comando que se ejecutará y <code class="language-plaintext highlighter-rouge">archivo</code> es el nombre del archivo donde se almacenarán los 
+errores. Por ejemplo:</p>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">sort</span> &lt; numbers.txt <span class="o">&gt;</span> sorted_numbers.txt 2&gt; error.log
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>En este ejemplo, el comando <code class="language-plaintext highlighter-rouge">sort</code> ordena la salida de un archivo llamado <code class="language-plaintext highlighter-rouge">numbers.txt</code>, redirige la salida a 
+otro archivo llamado <code class="language-plaintext highlighter-rouge">sorted_numbers.txt</code>, y redirige las salidas de error (errores de ejecución) a un 
+archivo llamado <code class="language-plaintext highlighter-rouge">error.log</code>.</p>
+
+<h3 id="redirección-de-errores-y-salida-"><span class="me-2">Redirección de errores y salida (&gt;&amp;)</span><a href="#redirección-de-errores-y-salida-" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<hr />
+
+<p>La redirección de errores y salida (&gt;&amp;) se utiliza para reenviar tanto la salida como los errores de un 
+comando. La sintaxis básica es:</p>
+
+<p><code class="language-plaintext highlighter-rouge">comando &gt;&amp; archivo</code></p>
+
+<p>Donde <code class="language-plaintext highlighter-rouge">comando</code> es el comando que se ejecutará y <code class="language-plaintext highlighter-rouge">archivo</code> es el nombre del archivo donde se almacenarán 
+tanto la salida como los errores. Por ejemplo:</p>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">sort</span> &lt; numbers.txt <span class="o">&gt;</span> sorted_numbers.txt &amp;&gt; log.txt
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>En este ejemplo, el comando <code class="language-plaintext highlighter-rouge">sort</code> ordena la salida de un archivo llamado <code class="language-plaintext highlighter-rouge">numbers.txt</code>, redirige la salida y 
+los errores a un archivo llamado <code class="language-plaintext highlighter-rouge">log.txt</code>.</p>
 
   </div>
 
@@ -1455,6 +1815,11 @@
               
 
 
+
+  <section id="toc-wrapper" class="ps-0 pe-4">
+    <h2 class="panel-heading ps-3 pt-2 mb-2">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
 
 
             
@@ -2344,9 +2709,16 @@ sudo install -m 0755 -d /etc/a...
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/en.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js,npm/mermaid@10.8.0/dist/mermaid.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/en.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js,npm/tocbot@4.25.0/dist/tocbot.min.js,npm/mermaid@10.8.0/dist/mermaid.min.js"></script>
 
 
 
