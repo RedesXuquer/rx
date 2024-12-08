@@ -4,7 +4,7 @@
   <id>https://redesxuquer.github.io/rx/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-12-02T22:47:42+00:00</updated>
+  <updated>2024-12-08T22:45:18+00:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://redesxuquer.github.io/rx/</uri>
@@ -17,6 +17,51 @@
   <icon>rx//assets/img/favicons/favicon.ico</icon>
   <logo>rx//assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Directorios y permisos en Linux</title>
+    <link href="https://redesxuquer.github.io/rx/posts/Directorios-Permisos-Linux/" rel="alternate" type="text/html" title="Directorios y permisos en Linux" />
+    <published>2024-12-08T04:00:00+00:00</published>
+  
+    <updated>2024-12-08T04:00:00+00:00</updated>
+  
+    <id>https://redesxuquer.github.io/rx/posts/Directorios-Permisos-Linux/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/Directorios-Permisos-Linux/" />
+    <author>
+      <name>Luis</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Demo" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Directorios en Linux
+
+En Linux, un directorio (directory) es una estructura de archivo que contiene otros archivos y directorios. Los directorios pueden contener archivos, directorios, links simbólicos, etc. En este artículo, te explicaremos qué son los directorios en Linux, cómo se utilizan y cómo funcionan.
+
+Tipos de Directorios
+
+Existen varios tipos de directorios en Linux:
+
+
+  Directorio ra...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -196,45 +241,6 @@ Procedimiento:
   Preparación del cable:
     
       Corta el cable Ethernet al tamaño deseado, asegurándote de dejar un poco de margen adicional para evitar cortar los hilos demasiado cortos...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Capa de sesión</title>
-    <link href="https://redesxuquer.github.io/rx/posts/Capa-sesion/" rel="alternate" type="text/html" title="Capa de sesión" />
-    <published>2024-03-10T11:00:00+00:00</published>
-  
-    <updated>2024-03-10T11:00:00+00:00</updated>
-  
-    <id>https://redesxuquer.github.io/rx/posts/Capa-sesion/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/Capa-sesion/" />
-    <author>
-      <name>your_full_name</name>
-    </author>
-
-  
-    
-    <category term="Sistemas Microinformáticos y Redes" />
-    
-    <category term="Servicios en red" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      La Capa de Sesión, también conocida como Capa 5, es la quinta capa del Modelo OSI (Open Systems Interconnection). Esta capa proporciona los medios para que las aplicaciones en sistemas de extremo a extremo establezcan, administren y finalicen las sesiones de comunicación entre ellas. Aquí tienes un temario extenso sobre la Capa de Sesión del Modelo OSI:
-
-1. Introducción a la Capa de Sesión
-La C...
     </summary>
   
 
