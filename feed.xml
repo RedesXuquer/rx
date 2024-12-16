@@ -4,7 +4,7 @@
   <id>https://redesxuquer.github.io/rx/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-12-08T22:45:18+00:00</updated>
+  <updated>2024-12-16T10:15:09+00:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://redesxuquer.github.io/rx/</uri>
@@ -17,6 +17,46 @@
   <icon>rx//assets/img/favicons/favicon.ico</icon>
   <logo>rx//assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>SSH y utilización</title>
+    <link href="https://redesxuquer.github.io/rx/posts/SSH-comandos/" rel="alternate" type="text/html" title="SSH y utilización" />
+    <published>2024-12-16T04:00:00+00:00</published>
+  
+    <updated>2024-12-16T04:00:00+00:00</updated>
+  
+    <id>https://redesxuquer.github.io/rx/posts/SSH-comandos/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/SSH-comandos/" />
+    <author>
+      <name>Luis</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Demo" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      SSH (Secure Shell): Explicación y Funcionamiento
+
+
+
+SSH (Secure Shell) es un protocolo de red que permite la administración segura y la comunicación entre dos sistemas informáticos, generalmente un cliente y un servidor. SSH se utiliza principalmente para acceder de forma remota a sistemas, gestionar servidores, transferir archivos y ejecutar comandos en una máquina remota a través de un canal ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -189,58 +229,6 @@ echo \
       ¿Qué es Docker?
 
 Docker es una plataforma de software que permite crear, desplegar y gestionar aplicaciones en contenedores. Los contenedores son entornos ligeros y portátiles que contienen todo lo necesario para ejecutar una aplicación, incluyendo el código, las dependencias, las bibliotecas y el sistema operativo. Esto asegura que la aplicación se ejecute de manera consistente en cualquier en...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Prácticas de redes</title>
-    <link href="https://redesxuquer.github.io/rx/posts/practicas-redes/" rel="alternate" type="text/html" title="Prácticas de redes" />
-    <published>2024-03-12T11:00:00+00:00</published>
-  
-    <updated>2024-03-12T11:00:00+00:00</updated>
-  
-    <id>https://redesxuquer.github.io/rx/posts/practicas-redes/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/practicas-redes/" />
-    <author>
-      <name>your_full_name</name>
-    </author>
-
-  
-    
-    <category term="Sistemas Microinformáticos y Redes" />
-    
-    <category term="Servicios en red" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Creación de cables de red
-
-Materiales necesarios:
-
-  Cable de red (por ejemplo, cable UTP Cat5e, Cat6, Cat6a)
-  Conectores RJ45
-  Herramienta de pelado y corte de cables
-  Crimpadora
-  Probador de cables
-
-
-Procedimiento:
-
-
-  Preparación del cable:
-    
-      Corta el cable Ethernet al tamaño deseado, asegurándote de dejar un poco de margen adicional para evitar cortar los hilos demasiado cortos...
     </summary>
   
 
