@@ -808,6 +808,215 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -823,6 +1032,226 @@
       
         
         
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
       
 
       
@@ -976,9 +1405,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="1106 words"
+  title="2768 words"
 >
-  <em>6 min</em> read</span>
+  <em>15 min</em> read</span>
 
       </div>
       <!-- .d-flex -->
@@ -1382,6 +1811,658 @@ ssh usuario@servidor.com
 
 <h3 id="conclusión-1"><span class="me-2"><strong>Conclusión</strong></span><a href="#conclusión-1" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <p>Este método usa claves SSH para autenticación, eliminando la necesidad de ingresar contraseñas. Es más seguro que el uso de contraseñas porque las claves privadas permanecen en tu dispositivo y no se transmiten por la red.</p>
+
+<h3 id="explicación-del-comando-rsync"><span class="me-2"><strong>Explicación del comando <code class="language-plaintext highlighter-rouge">rsync</code></strong></span><a href="#explicación-del-comando-rsync" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p><code class="language-plaintext highlighter-rouge">rsync</code> es una poderosa herramienta de sincronización y copia de archivos en sistemas Linux y Unix. Se utiliza para transferir y sincronizar archivos y directorios entre sistemas locales y remotos de manera eficiente. Lo hace comparando los archivos origen y destino, copiando solo las diferencias para ahorrar ancho de banda y tiempo.</p>
+
+<hr />
+
+<h3 id="características-principales-de-rsync"><span class="me-2"><strong>Características principales de <code class="language-plaintext highlighter-rouge">rsync</code></strong></span><a href="#características-principales-de-rsync" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<ol>
+  <li><strong>Eficiencia en la transferencia:</strong>
+    <ul>
+      <li>Utiliza un algoritmo delta que copia solo las partes del archivo que han cambiado.</li>
+    </ul>
+  </li>
+  <li><strong>Versatilidad:</strong>
+    <ul>
+      <li>Puede usarse para sincronización local (entre carpetas del mismo sistema) o remota (a través de SSH o daemon <code class="language-plaintext highlighter-rouge">rsync</code>).</li>
+    </ul>
+  </li>
+  <li><strong>Compresión:</strong>
+    <ul>
+      <li>Ofrece la opción de comprimir los datos durante la transferencia para ahorrar ancho de banda.</li>
+    </ul>
+  </li>
+  <li><strong>Preservación de atributos:</strong>
+    <ul>
+      <li>Puede preservar permisos, propietarios, marcas de tiempo, enlaces simbólicos y dispositivos.</li>
+    </ul>
+  </li>
+  <li><strong>Seguridad:</strong>
+    <ul>
+      <li>Se integra con SSH para transferencias seguras.</li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="sintaxis-general"><span class="me-2"><strong>Sintaxis general</strong></span><a href="#sintaxis-general" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>rsync <span class="o">[</span>opciones] fuente destino
+</pre></td></tr></tbody></table></code></div></div>
+
+<ul>
+  <li><strong>fuente:</strong> Archivos o directorios a copiar.</li>
+  <li><strong>destino:</strong> Lugar donde se copiarán los archivos (puede ser local o remoto).</li>
+</ul>
+
+<hr />
+
+<h3 id="ejemplos-de-uso"><span class="me-2"><strong>Ejemplos de uso</strong></span><a href="#ejemplos-de-uso" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<h4 id="1-copia-local-de-un-archivodirectorio"><span class="me-2">1. <strong>Copia local de un archivo/directorio</strong></span><a href="#1-copia-local-de-un-archivodirectorio" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>rsync <span class="nt">-av</span> /origen/ /destino/
+</pre></td></tr></tbody></table></code></div></div>
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">-a</code></strong>: Modo archivo (preserva permisos, propietarios, enlaces, etc.).</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">-v</code></strong>: Modo detallado (muestra el progreso).</li>
+</ul>
+
+<hr />
+
+<h4 id="2-sincronización-remota-usando-ssh"><span class="me-2">2. <strong>Sincronización remota usando SSH</strong></span><a href="#2-sincronización-remota-usando-ssh" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>rsync <span class="nt">-avz</span> <span class="nt">-e</span> ssh /origen/ usuario@servidor:/ruta/destino/
+</pre></td></tr></tbody></table></code></div></div>
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">-z</code></strong>: Comprime los datos durante la transferencia.</li>
+  <li><strong><code class="language-plaintext highlighter-rouge">-e ssh</code></strong>: Usa SSH como transporte.</li>
+</ul>
+
+<hr />
+
+<h4 id="3-eliminar-archivos-en-el-destino-que-ya-no-existen-en-el-origen"><span class="me-2">3. <strong>Eliminar archivos en el destino que ya no existen en el origen</strong></span><a href="#3-eliminar-archivos-en-el-destino-que-ya-no-existen-en-el-origen" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>rsync <span class="nt">-av</span> <span class="nt">--delete</span> /origen/ /destino/
+</pre></td></tr></tbody></table></code></div></div>
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">--delete</code></strong>: Elimina archivos del destino que no están en el origen.</li>
+</ul>
+
+<hr />
+
+<h4 id="4-sincronizar-solo-archivos-modificados-o-más-recientes"><span class="me-2">4. <strong>Sincronizar solo archivos modificados o más recientes</strong></span><a href="#4-sincronizar-solo-archivos-modificados-o-más-recientes" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>rsync <span class="nt">-u</span> /origen/ /destino/
+</pre></td></tr></tbody></table></code></div></div>
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">-u</code></strong>: Copia solo los archivos que son más nuevos en el origen.</li>
+</ul>
+
+<hr />
+
+<h4 id="5-mostrar-progreso-durante-la-transferencia"><span class="me-2">5. <strong>Mostrar progreso durante la transferencia</strong></span><a href="#5-mostrar-progreso-durante-la-transferencia" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>rsync <span class="nt">-av</span> <span class="nt">--progress</span> /origen/ /destino/
+</pre></td></tr></tbody></table></code></div></div>
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">--progress</code></strong>: Muestra el estado de cada archivo mientras se transfiere.</li>
+</ul>
+
+<hr />
+
+<h4 id="6-excluyendo-archivos-o-directorios-específicos"><span class="me-2">6. <strong>Excluyendo archivos o directorios específicos</strong></span><a href="#6-excluyendo-archivos-o-directorios-específicos" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>rsync <span class="nt">-av</span> <span class="nt">--exclude</span> <span class="s1">'*.log'</span> /origen/ /destino/
+</pre></td></tr></tbody></table></code></div></div>
+<ul>
+  <li><strong><code class="language-plaintext highlighter-rouge">--exclude</code></strong>: Omite archivos o directorios que coincidan con el patrón.</li>
+</ul>
+
+<hr />
+
+<h4 id="7-transferencia-directa-entre-dos-servidores-remotos"><span class="me-2">7. <strong>Transferencia directa entre dos servidores remotos</strong></span><a href="#7-transferencia-directa-entre-dos-servidores-remotos" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>rsync <span class="nt">-av</span> <span class="nt">-e</span> ssh usuario1@servidor1:/ruta/origen/ usuario2@servidor2:/ruta/destino/
+</pre></td></tr></tbody></table></code></div></div>
+<p>Este comando copia archivos entre dos servidores sin necesidad de descargarlos al sistema local.</p>
+
+<hr />
+
+<h3 id="opciones-comunes"><span class="me-2"><strong>Opciones comunes</strong></span><a href="#opciones-comunes" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>| Opción            | Descripción                                                                                   |
+|——————–|———————————————————————————————–|
+| <code class="language-plaintext highlighter-rouge">-a</code>              | Activa el modo archivo (preserva permisos, propietarios, marcas de tiempo, enlaces, etc.).    |
+| <code class="language-plaintext highlighter-rouge">-v</code>              | Muestra información detallada sobre el proceso.                                              |
+| <code class="language-plaintext highlighter-rouge">-z</code>              | Comprime los datos durante la transferencia.                                                 |
+| <code class="language-plaintext highlighter-rouge">-r</code>              | Copia directorios de forma recursiva.                                                        |
+| <code class="language-plaintext highlighter-rouge">--delete</code>        | Elimina archivos en el destino que no están en el origen.                                     |
+| <code class="language-plaintext highlighter-rouge">--progress</code>      | Muestra el progreso de la copia.                                                             |
+| <code class="language-plaintext highlighter-rouge">-e ssh</code>          | Especifica el uso de SSH como protocolo de transporte.                                       |
+| <code class="language-plaintext highlighter-rouge">--exclude</code>       | Excluye archivos o directorios que coincidan con un patrón.                                  |</p>
+
+<hr />
+
+<h3 id="cuándo-usar-rsync"><span class="me-2"><strong>¿Cuándo usar <code class="language-plaintext highlighter-rouge">rsync</code>?</strong></span><a href="#cuándo-usar-rsync" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<ol>
+  <li><strong>Copia de seguridad:</strong>
+    <ul>
+      <li>Realiza copias de respaldo incrementales, copiando solo los cambios desde la última copia.</li>
+    </ul>
+  </li>
+  <li><strong>Sincronización remota:</strong>
+    <ul>
+      <li>Mantén sincronizados sistemas remotos de forma rápida y eficiente.</li>
+    </ul>
+  </li>
+  <li><strong>Migración de datos:</strong>
+    <ul>
+      <li>Transfiere datos entre servidores o sistemas locales con mínimos tiempos de inactividad.</li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="conclusión-2"><span class="me-2"><strong>Conclusión</strong></span><a href="#conclusión-2" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p><code class="language-plaintext highlighter-rouge">rsync</code> es una herramienta imprescindible para administradores de sistemas y desarrolladores gracias a su eficiencia, flexibilidad y capacidad para manejar grandes volúmenes de datos de forma segura y rápida. Con su soporte para conexiones SSH y opciones avanzadas como la compresión y la exclusión de patrones, <code class="language-plaintext highlighter-rouge">rsync</code> sobresale como la solución ideal para tareas de copia y sincronización.</p>
+
+<h3 id="ejercicios-prácticos-de-ssh"><span class="me-2"><strong>Ejercicios prácticos de SSH</strong></span><a href="#ejercicios-prácticos-de-ssh" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<h4 id="1-conexión-remota-básica-con-ssh"><span class="me-2"><strong>1. Conexión remota básica con SSH</strong></span><a href="#1-conexión-remota-básica-con-ssh" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+  <li>Conéctate a un servidor remoto utilizando SSH.</li>
+  <li>Supongamos que el servidor remoto tiene la dirección IP <code class="language-plaintext highlighter-rouge">192.168.1.10</code> y el usuario es <code class="language-plaintext highlighter-rouge">user</code>.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>ssh user@192.168.1.10
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>Objetivo:</strong></p>
+<ul>
+  <li>Verificar si puedes conectarte y explorar el sistema remoto.</li>
+</ul>
+
+<hr />
+
+<h4 id="2-conexión-con-un-puerto-personalizado"><span class="me-2"><strong>2. Conexión con un puerto personalizado</strong></span><a href="#2-conexión-con-un-puerto-personalizado" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+  <li>Configura SSH para conectarte a un servidor que escucha en un puerto diferente al predeterminado (22). Usa el puerto <code class="language-plaintext highlighter-rouge">2022</code>.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>ssh <span class="nt">-p</span> 2022 user@192.168.1.10
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>Objetivo:</strong></p>
+<ul>
+  <li>Verificar la capacidad de manejar configuraciones no estándar.</li>
+</ul>
+
+<hr />
+
+<h4 id="3-copiar-claves-públicas-para-una-conexión-sin-contraseña"><span class="me-2"><strong>3. Copiar claves públicas para una conexión sin contraseña</strong></span><a href="#3-copiar-claves-públicas-para-una-conexión-sin-contraseña" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+  <li>Usa el comando <code class="language-plaintext highlighter-rouge">ssh-copy-id</code> para copiar tu clave pública al servidor y configurar el inicio de sesión sin contraseña.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>ssh-copy-id user@192.168.1.10
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>Objetivo:</strong></p>
+<ul>
+  <li>Configurar un sistema seguro y cómodo para la autenticación sin necesidad de ingresar contraseñas.</li>
+</ul>
+
+<hr />
+
+<h4 id="4-crear-un-túnel-ssh"><span class="me-2"><strong>4. Crear un túnel SSH</strong></span><a href="#4-crear-un-túnel-ssh" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+  <li>Redirige un puerto local al puerto de un servidor remoto (por ejemplo, para acceder a un servidor web que corre en el puerto 8080).</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>ssh <span class="nt">-L</span> 8080:localhost:8080 user@192.168.1.10
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>Objetivo:</strong></p>
+<ul>
+  <li>Practicar el uso de túneles para aplicaciones específicas como bases de datos o servidores web.</li>
+</ul>
+
+<hr />
+
+<h4 id="5-usar-scp-para-transferir-archivos"><span class="me-2"><strong>5. Usar <code class="language-plaintext highlighter-rouge">scp</code> para transferir archivos</strong></span><a href="#5-usar-scp-para-transferir-archivos" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+  <li>Transfiere un archivo local (<code class="language-plaintext highlighter-rouge">/home/user/archivo.txt</code>) a un servidor remoto en la carpeta <code class="language-plaintext highlighter-rouge">/home/user/</code>.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>scp /home/user/archivo.txt user@192.168.1.10:/home/user/
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>Objetivo:</strong></p>
+<ul>
+  <li>Comprender cómo usar <code class="language-plaintext highlighter-rouge">scp</code> para transferencias rápidas de archivos.</li>
+</ul>
+
+<hr />
+
+<h3 id="ejercicios-prácticos-de-rsync"><span class="me-2"><strong>Ejercicios prácticos de <code class="language-plaintext highlighter-rouge">rsync</code></strong></span><a href="#ejercicios-prácticos-de-rsync" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<h4 id="1-sincronización-básica-de-archivos-locales"><span class="me-2"><strong>1. Sincronización básica de archivos locales</strong></span><a href="#1-sincronización-básica-de-archivos-locales" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+  <li>Sincroniza el contenido del directorio <code class="language-plaintext highlighter-rouge">/home/user/backup</code> con el directorio <code class="language-plaintext highlighter-rouge">/home/user/backup_sync</code>.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>rsync <span class="nt">-av</span> /home/user/backup/ /home/user/backup_sync/
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>Objetivo:</strong></p>
+<ul>
+  <li>Aprender a copiar y sincronizar directorios en el mismo sistema.</li>
+</ul>
+
+<hr />
+
+<h4 id="2-transferencia-de-archivos-remotos"><span class="me-2"><strong>2. Transferencia de archivos remotos</strong></span><a href="#2-transferencia-de-archivos-remotos" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+  <li>Usa <code class="language-plaintext highlighter-rouge">rsync</code> para copiar el contenido del directorio <code class="language-plaintext highlighter-rouge">/home/user/proyecto</code> a un servidor remoto.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>rsync <span class="nt">-av</span> /home/user/proyecto/ user@192.168.1.10:/home/user/proyecto_remoto/
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>Objetivo:</strong></p>
+<ul>
+  <li>Dominar la transferencia eficiente de datos a sistemas remotos.</li>
+</ul>
+
+<hr />
+
+<h4 id="3-eliminar-archivos-obsoletos-en-el-destino"><span class="me-2"><strong>3. Eliminar archivos obsoletos en el destino</strong></span><a href="#3-eliminar-archivos-obsoletos-en-el-destino" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+  <li>Sincroniza un directorio remoto con el local y elimina en el remoto los archivos que no estén presentes en el local.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>rsync <span class="nt">-av</span> <span class="nt">--delete</span> /home/user/proyecto/ user@192.168.1.10:/home/user/proyecto_remoto/
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>Objetivo:</strong></p>
+<ul>
+  <li>Practicar la sincronización completa, asegurando que ambos lados estén idénticos.</li>
+</ul>
+
+<hr />
+
+<h4 id="4-excluir-archivos-específicos"><span class="me-2"><strong>4. Excluir archivos específicos</strong></span><a href="#4-excluir-archivos-específicos" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+  <li>Sincroniza el directorio <code class="language-plaintext highlighter-rouge">/home/user/proyecto</code> excluyendo los archivos <code class="language-plaintext highlighter-rouge">.log</code>.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>rsync <span class="nt">-av</span> <span class="nt">--exclude</span><span class="o">=</span><span class="s1">'*.log'</span> /home/user/proyecto/ user@192.168.1.10:/home/user/proyecto_remoto/
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>Objetivo:</strong></p>
+<ul>
+  <li>Aprender a excluir ciertos tipos de archivos durante la sincronización.</li>
+</ul>
+
+<hr />
+
+<h4 id="5-comprimir-datos-durante-la-transferencia"><span class="me-2"><strong>5. Comprimir datos durante la transferencia</strong></span><a href="#5-comprimir-datos-durante-la-transferencia" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+  <li>Usa <code class="language-plaintext highlighter-rouge">rsync</code> con compresión para transferir datos al servidor remoto.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>rsync <span class="nt">-avz</span> /home/user/proyecto/ user@192.168.1.10:/home/user/proyecto_remoto/
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>Objetivo:</strong></p>
+<ul>
+  <li>Reducir el tiempo de transferencia al comprimir los datos.</li>
+</ul>
+
+<hr />
+
+<h4 id="6-sincronización-inversa-desde-un-servidor-remoto"><span class="me-2"><strong>6. Sincronización inversa desde un servidor remoto</strong></span><a href="#6-sincronización-inversa-desde-un-servidor-remoto" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+  <li>Copia el contenido de un directorio remoto al local.</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>rsync <span class="nt">-av</span> user@192.168.1.10:/home/user/proyecto_remoto/ /home/user/proyecto/
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>Objetivo:</strong></p>
+<ul>
+  <li>Practicar la descarga de datos remotos y mantenerlos sincronizados.</li>
+</ul>
+
+<hr />
+
+<h3 id="ejercicio-combinado-de-ssh-y-rsync"><span class="me-2"><strong>Ejercicio combinado de SSH y <code class="language-plaintext highlighter-rouge">rsync</code></strong></span><a href="#ejercicio-combinado-de-ssh-y-rsync" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<h4 id="1-automatización-de-copias-de-seguridad-remotas"><span class="me-2"><strong>1. Automatización de copias de seguridad remotas</strong></span><a href="#1-automatización-de-copias-de-seguridad-remotas" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+  <li>Crea un script en Bash para sincronizar el directorio <code class="language-plaintext highlighter-rouge">/home/user/backup</code> con un servidor remoto a través de SSH usando <code class="language-plaintext highlighter-rouge">rsync</code>.</li>
+</ul>
+
+<p><strong>Ejemplo de script:</strong></p>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre></td><td class="rouge-code"><pre><span class="c">#!/bin/bash</span>
+
+<span class="c"># Variables</span>
+<span class="nv">LOCAL_DIR</span><span class="o">=</span><span class="s2">"/home/user/backup/"</span>
+<span class="nv">REMOTE_USER</span><span class="o">=</span><span class="s2">"user"</span>
+<span class="nv">REMOTE_HOST</span><span class="o">=</span><span class="s2">"192.168.1.10"</span>
+<span class="nv">REMOTE_DIR</span><span class="o">=</span><span class="s2">"/home/user/backup_remoto/"</span>
+
+<span class="c"># Comando rsync</span>
+rsync <span class="nt">-avz</span> <span class="nt">--delete</span> <span class="nt">-e</span> ssh <span class="s2">"</span><span class="nv">$LOCAL_DIR</span><span class="s2">"</span> <span class="s2">"</span><span class="nv">$REMOTE_USER</span><span class="s2">@</span><span class="nv">$REMOTE_HOST</span><span class="s2">:</span><span class="nv">$REMOTE_DIR</span><span class="s2">"</span>
+
+<span class="nb">echo</span> <span class="s2">"Copia de seguridad completada."</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><strong>Objetivo:</strong></p>
+<ul>
+  <li>Practicar la integración de <code class="language-plaintext highlighter-rouge">rsync</code> y SSH en tareas automatizadas.</li>
+</ul>
+
+<hr />
+
+<p>Estos ejercicios te permitirán aprender, aplicar y combinar las funcionalidades de SSH y <code class="language-plaintext highlighter-rouge">rsync</code> para la administración de sistemas, la transferencia segura de datos y la automatización de tareas.</p>
+
+<h3 id="qué-es-crontab"><span class="me-2"><strong>¿Qué es <code class="language-plaintext highlighter-rouge">crontab</code>?</strong></span><a href="#qué-es-crontab" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p><code class="language-plaintext highlighter-rouge">crontab</code> es una herramienta en sistemas Unix/Linux que permite programar la ejecución de tareas automáticamente en momentos específicos. Estas tareas, conocidas como <strong>cron jobs</strong>, son especialmente útiles para automatizar tareas de mantenimiento, copias de seguridad, actualizaciones o cualquier script que necesite ejecutarse de forma periódica.</p>
+
+<hr />
+
+<h3 id="funcionamiento-de-crontab"><span class="me-2"><strong>Funcionamiento de <code class="language-plaintext highlighter-rouge">crontab</code></strong></span><a href="#funcionamiento-de-crontab" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<ol>
+  <li>
+    <p><strong>Demonio <code class="language-plaintext highlighter-rouge">cron</code>:</strong> Es el servicio que se ejecuta en segundo plano y se encarga de leer los archivos <code class="language-plaintext highlighter-rouge">crontab</code> para ejecutar las tareas en el momento programado.</p>
+  </li>
+  <li>
+    <p><strong>Archivo <code class="language-plaintext highlighter-rouge">crontab</code>:</strong> Es un archivo de texto que contiene las tareas programadas, cada una en una línea con un formato específico.</p>
+  </li>
+  <li>
+    <p><strong>Formato básico de una línea <code class="language-plaintext highlighter-rouge">crontab</code>:</strong></p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>* * * * * comando
+</pre></td></tr></tbody></table></code></div>    </div>
+    <p>Cada asterisco representa un campo temporal:</p>
+
+    <ul>
+      <li><strong>Minuto</strong> (0-59)</li>
+      <li><strong>Hora</strong> (0-23)</li>
+      <li><strong>Día del mes</strong> (1-31)</li>
+      <li><strong>Mes</strong> (1-12 o abreviaturas como jan, feb)</li>
+      <li><strong>Día de la semana</strong> (0-7, donde 0 y 7 son domingo, o abreviaturas como mon, tue)</li>
+    </ul>
+
+    <p>El comando especifica lo que se ejecutará en el momento indicado por esos campos.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="ejemplo-de-configuración-crontab"><span class="me-2"><strong>Ejemplo de configuración <code class="language-plaintext highlighter-rouge">crontab</code></strong></span><a href="#ejemplo-de-configuración-crontab" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<ol>
+  <li><strong>Ejecutar un script cada día a las 3:00 AM:</strong>
+    <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>0 3 * * * /home/usuario/backup.sh
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+  <li><strong>Ejecutar cada 5 minutos:</strong>
+    <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>*/5 * * * * /home/usuario/monitoreo.sh
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+  <li><strong>Ejecutar un comando solo los lunes a las 8:00 AM:</strong>
+    <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>0 8 * * 1 /home/usuario/limpieza.sh
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+  <li><strong>Ejecutar en días específicos (15 de enero a las 12:00 PM):</strong>
+    <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>0 12 15 1 * /home/usuario/facturacion.sh
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="gestión-de-crontab"><span class="me-2"><strong>Gestión de <code class="language-plaintext highlighter-rouge">crontab</code></strong></span><a href="#gestión-de-crontab" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<h4 id="comandos-básicos"><span class="me-2"><strong>Comandos básicos:</strong></span><a href="#comandos-básicos" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<ol>
+  <li><strong>Editar las tareas del usuario actual:</strong>
+    <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>crontab <span class="nt">-e</span>
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+  <li><strong>Listar las tareas programadas:</strong>
+    <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>crontab <span class="nt">-l</span>
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+  <li><strong>Eliminar todas las tareas del usuario actual:</strong>
+    <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>crontab <span class="nt">-r</span>
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+  <li><strong>Editar las tareas de otro usuario (requiere permisos root):</strong>
+    <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>crontab <span class="nt">-u</span> usuario <span class="nt">-e</span>
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="especificadores-especiales-en-crontab"><span class="me-2"><strong>Especificadores especiales en <code class="language-plaintext highlighter-rouge">crontab</code></strong></span><a href="#especificadores-especiales-en-crontab" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>En lugar de usar asteriscos y números, puedes emplear los siguientes especificadores:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">@reboot</code>: Ejecuta el comando una vez al reiniciar el sistema.</li>
+  <li><code class="language-plaintext highlighter-rouge">@hourly</code>: Ejecuta el comando cada hora.</li>
+  <li><code class="language-plaintext highlighter-rouge">@daily</code>: Ejecuta el comando una vez al día (a las 12:00 AM).</li>
+  <li><code class="language-plaintext highlighter-rouge">@weekly</code>: Ejecuta el comando una vez a la semana (el domingo a las 12:00 AM).</li>
+  <li><code class="language-plaintext highlighter-rouge">@monthly</code>: Ejecuta el comando una vez al mes (el primer día a las 12:00 AM).</li>
+  <li><code class="language-plaintext highlighter-rouge">@yearly</code> o <code class="language-plaintext highlighter-rouge">@annually</code>: Ejecuta el comando una vez al año (el 1 de enero a las 12:00 AM).</li>
+</ul>
+
+<p><strong>Ejemplo:</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>@daily /home/usuario/limpiar_logs.sh
+</pre></td></tr></tbody></table></code></div></div>
+
+<hr />
+
+<h3 id="redirección-de-salida-en-crontab"><span class="me-2"><strong>Redirección de salida en <code class="language-plaintext highlighter-rouge">crontab</code></strong></span><a href="#redirección-de-salida-en-crontab" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>Cuando una tarea se ejecuta, su salida (si la tiene) se envía al correo del usuario. Puedes redirigir esta salida para evitar recibir correos o para guardar logs:</p>
+
+<ol>
+  <li><strong>Ignorar la salida:</strong>
+    <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>*/10 * * * * /home/usuario/actualizar.sh &gt; /dev/null 2&gt;&amp;1
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+  <li><strong>Guardar en un archivo de log:</strong>
+    <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>0 0 * * * /home/usuario/copia.sh &gt;&gt; /var/log/copia.log 2&gt;&amp;1
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="comprobación-de-logs-de-cron"><span class="me-2"><strong>Comprobación de logs de <code class="language-plaintext highlighter-rouge">cron</code></strong></span><a href="#comprobación-de-logs-de-cron" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<p>Los registros de las tareas programadas se almacenan en el archivo de logs del sistema. Puedes verificar si las tareas se ejecutaron correctamente:</p>
+
+<ol>
+  <li><strong>En Ubuntu/Debian:</strong>
+    <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo grep </span>CRON /var/log/syslog
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+  <li><strong>En CentOS/Red Hat:</strong>
+    <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo grep </span>CRON /var/log/cron
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="errores-comunes-en-crontab"><span class="me-2"><strong>Errores comunes en <code class="language-plaintext highlighter-rouge">crontab</code></strong></span><a href="#errores-comunes-en-crontab" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<ol>
+  <li><strong>Falta de PATH completo:</strong>
+    <ul>
+      <li>Solución: Usa rutas absolutas para comandos y archivos.
+        <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>0 2 * * * /usr/bin/python3 /home/usuario/script.py
+</pre></td></tr></tbody></table></code></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Permisos incorrectos:</strong>
+    <ul>
+      <li>Asegúrate de que el script tenga permisos de ejecución (<code class="language-plaintext highlighter-rouge">chmod +x script.sh</code>).</li>
+    </ul>
+  </li>
+  <li><strong>Variables de entorno faltantes:</strong>
+    <ul>
+      <li>Puedes configurar variables de entorno en la parte superior del archivo <code class="language-plaintext highlighter-rouge">crontab</code>.
+        <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>PATH=/usr/local/bin:/usr/bin:/bin
+</pre></td></tr></tbody></table></code></div>        </div>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="ejercicio-práctico"><span class="me-2"><strong>Ejercicio práctico</strong></span><a href="#ejercicio-práctico" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<ol>
+  <li>
+    <p>Programa un script para ejecutar un respaldo todos los días a las 2:30 AM y guardar un registro en <code class="language-plaintext highlighter-rouge">/var/log/respaldo.log</code>.</p>
+
+    <p><strong>Solución:</strong></p>
+    <div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>30 2 * * * /home/usuario/respaldo.sh &gt;&gt; /var/log/respaldo.log 2&gt;&amp;1
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+</ol>
+
+<p>Con esta guía puedes aprovechar todo el potencial de <code class="language-plaintext highlighter-rouge">crontab</code> para automatizar tareas en tu sistema. 🚀</p>
 
   </div>
 
