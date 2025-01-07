@@ -32,8 +32,8 @@
 <meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="Hibernate" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Hibernate Con la siguiente estructura SQL:" />
-<meta property="og:description" content="Hibernate Con la siguiente estructura SQL:" />
+<meta name="description" content="Hibernate" />
+<meta property="og:description" content="Hibernate" />
 <link rel="canonical" href="https://redesxuquer.github.io/rx/posts/Hibernate/" />
 <meta property="og:url" content="https://redesxuquer.github.io/rx/posts/Hibernate/" />
 <meta property="og:site_name" content="Chirpy" />
@@ -43,7 +43,7 @@
 <meta property="twitter:title" content="Hibernate" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-10T11:00:00+00:00","datePublished":"2024-01-10T11:00:00+00:00","description":"Hibernate Con la siguiente estructura SQL:","headline":"Hibernate","mainEntityOfPage":{"@type":"WebPage","@id":"https://redesxuquer.github.io/rx/posts/Hibernate/"},"url":"https://redesxuquer.github.io/rx/posts/Hibernate/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-10T11:00:00+00:00","datePublished":"2024-01-10T11:00:00+00:00","description":"Hibernate","headline":"Hibernate","mainEntityOfPage":{"@type":"WebPage","@id":"https://redesxuquer.github.io/rx/posts/Hibernate/"},"url":"https://redesxuquer.github.io/rx/posts/Hibernate/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -745,6 +745,38 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -838,9 +870,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="974 words"
+  title="1560 words"
 >
-  <em>5 min</em> read</span>
+  <em>8 min</em> read</span>
 
       </div>
       <!-- .d-flex -->
@@ -850,6 +882,63 @@
 
   <div class="content">
     <h1 id="hibernate">Hibernate</h1>
+
+<h2 id="uso"><span class="me-2">Uso</span><a href="#uso" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Hibernate es un framework de mapeo objeto-relacional (ORM) ampliamente utilizado en aplicaciones Java para interactuar con bases de datos. Su propósito principal es simplificar y optimizar el manejo de datos  persistentes al permitir que los desarrolladores trabajen con objetos en lugar de escribir directamente consultas SQL. A continuación, se enumeran las principales razones para utilizar Hibernate:</p>
+
+<ol>
+  <li>Simplificación del manejo de datos persistentes
+Hibernate abstrae las complejidades del manejo de datos en bases de datos relacionales:
+No es necesario escribir código SQL explícito para operaciones comunes (inserción, actualización, eliminación, consulta).
+Se trabaja directamente con objetos Java (entidades), que Hibernate mapea automáticamente a tablas de la base de datos.</li>
+  <li>Portabilidad y soporte para múltiples bases de datos
+Hibernate es compatible con diferentes sistemas de bases de datos:
+Cambiar de una base de datos a otra requiere poco o ningún cambio en el código.
+La configuración del dialecto de base de datos (por ejemplo, MySQL, PostgreSQL, Oracle) permite a Hibernate generar automáticamente SQL adaptado a cada sistema.</li>
+  <li>Reducción de código repetitivo
+Hibernate gestiona operaciones repetitivas y tediosas:
+Generación automática de consultas SQL para CRUD.
+No es necesario escribir manualmente código para abrir y cerrar conexiones, manejar transacciones, etc.</li>
+  <li>Gestión automática de relaciones
+Hibernate soporta y simplifica relaciones entre tablas:
+Relaciones como uno a uno, uno a muchos y muchos a muchos se modelan como relaciones entre objetos.
+Maneja automáticamente las claves foráneas y las asociaciones.</li>
+  <li>Caché y optimización del rendimiento
+Hibernate utiliza mecanismos de caché para mejorar el rendimiento:
+Primer nivel de caché: Caché asociada a la sesión de Hibernate.
+Segundo nivel de caché: Caché compartida entre sesiones.
+Reduce la cantidad de consultas SQL enviadas al servidor, optimizando el uso de recursos.</li>
+  <li>Generación automática del esquema
+Hibernate puede generar y actualizar automáticamente el esquema de la base de datos basado en las entidades Java:
+Facilita el desarrollo rápido y reduce errores de sincronización entre el modelo de datos y el esquema de la base de datos.</li>
+  <li>Lenguaje de consultas HQL
+Hibernate Query Language (HQL) es un lenguaje orientado a objetos para escribir consultas:
+Similar a SQL pero centrado en objetos Java, lo que facilita el desarrollo.
+HQL abstrae las diferencias entre dialectos SQL de diferentes bases de datos.</li>
+  <li>Soporte para transacciones
+Hibernate integra fácilmente la gestión de transacciones:
+Proporciona control explícito sobre las transacciones (commit, rollback).
+Compatible con transacciones distribuidas a través de JTA (Java Transaction API).</li>
+  <li>Comunidad activa y extensibilidad
+Hibernate cuenta con una comunidad activa que ofrece soporte y documentación.
+Es extensible para cubrir necesidades específicas, como estrategias de mapeo personalizadas.</li>
+  <li>Integración con otros frameworks
+Hibernate se integra fácilmente con frameworks como:
+Spring Framework: Para gestionar la inyección de dependencias y transacciones.
+JPA (Java Persistence API): Hibernate implementa la especificación JPA, lo que lo hace ideal para proyectos que siguen estándares.
+Ventajas concretas
+Menor tiempo de desarrollo: Reduce la complejidad del código relacionado con bases de datos.
+Mantenimiento más sencillo: Cambios en el modelo de datos se reflejan automáticamente en el esquema de la base de datos.
+Flexibilidad: Soporte para consultas nativas SQL cuando es necesario.
+Consideraciones al usar Hibernate
+Curva de aprendizaje: Requiere tiempo para aprender su configuración y conceptos como lazy loading, transacciones y caché.
+Sobrecarga: En aplicaciones pequeñas, puede ser excesivo frente a soluciones más ligeras como JDBC.
+Configuración inicial: Aunque potente, puede ser complejo configurarlo correctamente en proyectos grandes.
+En general, Hibernate es una excelente opción para aplicaciones Java que requieren manejo eficiente de datos persistentes y buscan reducir el esfuerzo de desarrollo y mantenimiento.</li>
+</ol>
+
+<h2 id="caso-práctico"><span class="me-2">Caso práctico</span><a href="#caso-práctico" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 <p>Con la siguiente estructura SQL:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="code-header">
@@ -861,12 +950,14 @@
 5
 6
 7
+8
 </pre></td><td class="rouge-code"><pre>CREATE DATABASE canciones;
 
 CREATE TABLE `song` (
-  `songId` int(11) NOT NULL,
+  `songId` int(11) NOT NULL AUTO_INCREMENT,
   `songName` varchar(25) NOT NULL,
-  `singer` varchar(25) NOT NULL
+  `singer` varchar(25) NOT NULL,
+  PRIMARY KEY (`songId`);
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 </pre></td></tr></tbody></table></code></div></div>
 
@@ -1255,7 +1346,7 @@ import org.hibernate.cfg.Configuration;
 </pre></td></tr></tbody></table></code></div></div>
 
 <ol>
-  <li>Añadimos un archivo XML dento de nuestro proyecto, se debe llamar <em>*hibernate.cfg.xml</em> con el siguiente contenido:
+  <li>Añadimos un archivo XML dento de nuestro proyecto, se debe llamar <strong>hibernate.cfg.xml</strong> con el siguiente contenido:
 ```
 &lt;?xml version = “1.0” encoding = “utf-8”?&gt;
 &lt;!DOCTYPE hibernate-configuration PUBLIC
@@ -1967,6 +2058,11 @@ import org.hibernate.cfg.Configuration;
 
 
 
+  <section id="toc-wrapper" class="ps-0 pe-4">
+    <h2 class="panel-heading ps-3 pt-2 mb-2">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
+
 
             
           </aside>
@@ -2454,7 +2550,7 @@ Leyenda de la tabla
   "
 >
   <p>©
-    <time>2024</time>
+    <time>2025</time>
 
     
       <a href="https://twitter.com/username">your_full_name</a>.
@@ -3133,9 +3229,16 @@ Leyenda de la tabla
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/en.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/en.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js,npm/tocbot@4.25.0/dist/tocbot.min.js"></script>
 
 
 
