@@ -870,7 +870,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="1545 words"
+  title="1560 words"
 >
   <em>8 min</em> read</span>
 
@@ -1347,7 +1347,11 @@ import org.hibernate.cfg.Configuration;
 
 <ol>
   <li>Añadimos un archivo XML dento de nuestro proyecto, se debe llamar <strong>hibernate.cfg.xml</strong> con el siguiente contenido:
-```</li>
+```
+&lt;?xml version = “1.0” encoding = “utf-8”?&gt;
+&lt;!DOCTYPE hibernate-configuration PUBLIC
+     “-//Hibernate/Hibernate Configuration DTD 3.0//EN”
+     “http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd”&gt;</li>
 </ol>
 <hibernate-configuration>
     <session-factory>
