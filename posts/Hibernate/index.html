@@ -870,7 +870,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="1560 words"
+  title="1545 words"
 >
   <em>8 min</em> read</span>
 
@@ -957,7 +957,7 @@ CREATE TABLE `song` (
   `songId` int(11) NOT NULL AUTO_INCREMENT,
   `songName` varchar(25) NOT NULL,
   `singer` varchar(25) NOT NULL,
-  PRIMARY KEY (`songId`);
+  PRIMARY KEY (`songId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 </pre></td></tr></tbody></table></code></div></div>
 
@@ -1347,11 +1347,7 @@ import org.hibernate.cfg.Configuration;
 
 <ol>
   <li>Añadimos un archivo XML dento de nuestro proyecto, se debe llamar <strong>hibernate.cfg.xml</strong> con el siguiente contenido:
-```
-&lt;?xml version = “1.0” encoding = “utf-8”?&gt;
-&lt;!DOCTYPE hibernate-configuration PUBLIC
-     “-//Hibernate/Hibernate Configuration DTD 3.0//EN”
-     “http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd”&gt;</li>
+```</li>
 </ol>
 <hibernate-configuration>
     <session-factory>
