@@ -4,7 +4,7 @@
   <id>https://redesxuquer.github.io/rx/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-01-08T09:45:19+00:00</updated>
+  <updated>2025-01-10T06:35:55+00:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://redesxuquer.github.io/rx/</uri>
@@ -20,14 +20,54 @@
 
   
   <entry>
-    <title>SSH y utilización</title>
-    <link href="https://redesxuquer.github.io/rx/posts/SSH-comandos/" rel="alternate" type="text/html" title="SSH y utilización" />
+    <title>¿Qué es FTP y cómo funciona?</title>
+    <link href="https://redesxuquer.github.io/rx/posts/SSH-comandos/" rel="alternate" type="text/html" title="¿Qué es FTP y cómo funciona?" />
     <published>2024-12-16T04:00:00+00:00</published>
   
     <updated>2024-12-16T04:00:00+00:00</updated>
   
     <id>https://redesxuquer.github.io/rx/posts/SSH-comandos/</id>
     <content src="https://redesxuquer.github.io/rx/posts/SSH-comandos/" />
+    <author>
+      <name>Luis</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Demo" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      ¿Qué es FTP y cómo funciona?
+
+
+
+Trabajar con un servidor FTP (File Transfer Protocol) a través de la línea de comandos es una habilidad útil para transferir archivos entre tu computadora local y un servidor remoto. FTP es un protocolo estándar de red que permite la transferencia de archivos en una red TCP/IP, como Internet. A continuación, te explico en detalle cómo trabajar con un servidor FTP...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>SSH y utilización</title>
+    <link href="https://redesxuquer.github.io/rx/posts/SSH-comandos-copy/" rel="alternate" type="text/html" title="SSH y utilización" />
+    <published>2024-12-16T04:00:00+00:00</published>
+  
+    <updated>2024-12-16T04:00:00+00:00</updated>
+  
+    <id>https://redesxuquer.github.io/rx/posts/SSH-comandos-copy/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/SSH-comandos-copy/" />
     <author>
       <name>Luis</name>
     </author>
@@ -191,44 +231,6 @@ sudo chmod a+r /etc/apt/keyrings/docker.asc
 # Add the repository to Apt sources:
 echo \
   "deb...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Instalación Docker</title>
-    <link href="https://redesxuquer.github.io/rx/posts/Instalacion-Docker/" rel="alternate" type="text/html" title="Instalación Docker" />
-    <published>2024-05-23T04:00:00+00:00</published>
-  
-    <updated>2024-05-24T17:10:19+00:00</updated>
-  
-    <id>https://redesxuquer.github.io/rx/posts/Instalacion-Docker/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/Instalacion-Docker/" />
-    <author>
-      <name>Luis</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Demo" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      ¿Qué es Docker?
-
-Docker es una plataforma de software que permite crear, desplegar y gestionar aplicaciones en contenedores. Los contenedores son entornos ligeros y portátiles que contienen todo lo necesario para ejecutar una aplicación, incluyendo el código, las dependencias, las bibliotecas y el sistema operativo. Esto asegura que la aplicación se ejecute de manera consistente en cualquier en...
     </summary>
   
 
