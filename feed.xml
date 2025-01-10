@@ -4,7 +4,7 @@
   <id>https://redesxuquer.github.io/rx/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-01-10T06:35:55+00:00</updated>
+  <updated>2025-01-10T06:36:42+00:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://redesxuquer.github.io/rx/</uri>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>¿Qué es FTP y cómo funciona?</title>
-    <link href="https://redesxuquer.github.io/rx/posts/SSH-comandos/" rel="alternate" type="text/html" title="¿Qué es FTP y cómo funciona?" />
+    <link href="https://redesxuquer.github.io/rx/posts/ComandosFTP/" rel="alternate" type="text/html" title="¿Qué es FTP y cómo funciona?" />
     <published>2024-12-16T04:00:00+00:00</published>
   
     <updated>2024-12-16T04:00:00+00:00</updated>
   
-    <id>https://redesxuquer.github.io/rx/posts/SSH-comandos/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/SSH-comandos/" />
+    <id>https://redesxuquer.github.io/rx/posts/ComandosFTP/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/ComandosFTP/" />
     <author>
       <name>Luis</name>
     </author>
