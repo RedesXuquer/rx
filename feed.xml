@@ -4,7 +4,7 @@
   <id>https://redesxuquer.github.io/rx/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-01-10T06:36:42+00:00</updated>
+  <updated>2025-02-03T06:01:24+00:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://redesxuquer.github.io/rx/</uri>
@@ -17,6 +17,43 @@
   <icon>rx//assets/img/favicons/favicon.ico</icon>
   <logo>rx//assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title></title>
+    <link href="https://redesxuquer.github.io/rx/posts/2025-02-03-redesB%C3%A1sico/" rel="alternate" type="text/html" title="" />
+    <published>2025-02-03T06:01:24+00:00</published>
+  
+    <updated>2025-02-03T06:01:24+00:00</updated>
+  
+    <id>https://redesxuquer.github.io/rx/posts/2025-02-03-redesB%C3%A1sico/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/2025-02-03-redesB%C3%A1sico/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      2. Tipos de redes
+
+  LAN (Local Area Network): Red de área local, conecta dispositivos en un espacio reducido (oficina, casa).
+  WAN (Wide Area Network): Red de área amplia, conecta redes LAN a través de grandes distancias (ejemplo: Internet).
+  MAN (Metropolitan Area Network): Red que cubre una ciudad o campus.
+  PAN (Personal Area Network): Red personal, como la conexión entre un teléfono y u...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -61,13 +98,13 @@ Trabajar con un servidor FTP (File Transfer Protocol) a través de la línea de 
   
   <entry>
     <title>SSH y utilización</title>
-    <link href="https://redesxuquer.github.io/rx/posts/SSH-comandos-copy/" rel="alternate" type="text/html" title="SSH y utilización" />
+    <link href="https://redesxuquer.github.io/rx/posts/SSH-comandos/" rel="alternate" type="text/html" title="SSH y utilización" />
     <published>2024-12-16T04:00:00+00:00</published>
   
     <updated>2024-12-16T04:00:00+00:00</updated>
   
-    <id>https://redesxuquer.github.io/rx/posts/SSH-comandos-copy/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/SSH-comandos-copy/" />
+    <id>https://redesxuquer.github.io/rx/posts/SSH-comandos/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/SSH-comandos/" />
     <author>
       <name>Luis</name>
     </author>
@@ -183,54 +220,6 @@ Navegación y Gestión de Archivos
   ls: Lista los archivos y carpetas del directorio actual
   mkdir: Crea un nuevo directorio (mkdir mydir crea un nuevo directorio llamado mydir)
   rmdir: Borra un directorio vacío (rmdir mydir borra el direct...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Instalación Docker y FreeScout</title>
-    <link href="https://redesxuquer.github.io/rx/posts/Instalacion-Freescout-copy-2/" rel="alternate" type="text/html" title="Instalación Docker y FreeScout" />
-    <published>2024-05-23T04:00:00+00:00</published>
-  
-    <updated>2024-05-23T04:00:00+00:00</updated>
-  
-    <id>https://redesxuquer.github.io/rx/posts/Instalacion-Freescout-copy-2/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/Instalacion-Freescout-copy-2/" />
-    <author>
-      <name>Luis</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Demo" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Instalación de Docker y Docker Compose
-Set up Docker’s apt repository.
-
-# Add Docker's official GPG key:
-sudo apt-get update
-sudo apt-get install ca-certificates curl
-sudo install -m 0755 -d /etc/apt/keyrings
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
-sudo chmod a+r /etc/apt/keyrings/docker.asc
-
-# Add the repository to Apt sources:
-echo \
-  "deb...
     </summary>
   
 
