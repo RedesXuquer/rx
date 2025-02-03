@@ -4,7 +4,7 @@
   <id>https://redesxuquer.github.io/rx/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-03T06:01:47+00:00</updated>
+  <updated>2025-02-03T06:02:33+00:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://redesxuquer.github.io/rx/</uri>
@@ -20,19 +20,23 @@
 
   
   <entry>
-    <title></title>
-    <link href="https://redesxuquer.github.io/rx/posts/2025-02-03-redesBasico/" rel="alternate" type="text/html" title="" />
-    <published>2025-02-03T06:01:47+00:00</published>
+    <title>Introducción a redes SI</title>
+    <link href="https://redesxuquer.github.io/rx/posts/redesBasico/" rel="alternate" type="text/html" title="Introducción a redes SI" />
+    <published>2025-02-03T04:00:00+00:00</published>
   
-    <updated>2025-02-03T06:01:47+00:00</updated>
+    <updated>2025-02-03T04:00:00+00:00</updated>
   
-    <id>https://redesxuquer.github.io/rx/posts/2025-02-03-redesBasico/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/2025-02-03-redesBasico/" />
+    <id>https://redesxuquer.github.io/rx/posts/redesBasico/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/redesBasico/" />
     <author>
-      <name>your_full_name</name>
+      <name>Luis</name>
     </author>
 
   
+    
+    <category term="Blogging" />
+    
+    <category term="Demo" />
     
   
 
@@ -44,12 +48,17 @@
 
 
 
-      2. Tipos de redes
+      Introducción sobre Redes
+
+1. ¿Qué es una red?
+Una red es un conjunto de dispositivos (computadoras, servidores, impresoras, etc.) interconectados para compartir recursos, información y servicios. Estas conexiones pueden ser físicas (cables) o inalámbricas.
+
+
+
+2. Tipos de redes
 
   LAN (Local Area Network): Red de área local, conecta dispositivos en un espacio reducido (oficina, casa).
-  WAN (Wide Area Network): Red de área amplia, conecta redes LAN a través de grandes distancias (ejemplo: Internet).
-  MAN (Metropolitan Area Network): Red que cubre una ciudad o campus.
-  PAN (Personal Area Network): Red personal, como la conexión entre un teléfono y u...
+  WAN (Wid...
     </summary>
   
 
