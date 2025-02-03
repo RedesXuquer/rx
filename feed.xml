@@ -4,7 +4,7 @@
   <id>https://redesxuquer.github.io/rx/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-03T06:01:24+00:00</updated>
+  <updated>2025-02-03T06:01:47+00:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://redesxuquer.github.io/rx/</uri>
@@ -21,13 +21,13 @@
   
   <entry>
     <title></title>
-    <link href="https://redesxuquer.github.io/rx/posts/2025-02-03-redesB%C3%A1sico/" rel="alternate" type="text/html" title="" />
-    <published>2025-02-03T06:01:24+00:00</published>
+    <link href="https://redesxuquer.github.io/rx/posts/2025-02-03-redesBasico/" rel="alternate" type="text/html" title="" />
+    <published>2025-02-03T06:01:47+00:00</published>
   
-    <updated>2025-02-03T06:01:24+00:00</updated>
+    <updated>2025-02-03T06:01:47+00:00</updated>
   
-    <id>https://redesxuquer.github.io/rx/posts/2025-02-03-redesB%C3%A1sico/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/2025-02-03-redesB%C3%A1sico/" />
+    <id>https://redesxuquer.github.io/rx/posts/2025-02-03-redesBasico/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/2025-02-03-redesBasico/" />
     <author>
       <name>your_full_name</name>
     </author>
