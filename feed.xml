@@ -4,7 +4,7 @@
   <id>https://redesxuquer.github.io/rx/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-03T06:02:33+00:00</updated>
+  <updated>2025-03-24T06:14:46+00:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://redesxuquer.github.io/rx/</uri>
@@ -17,6 +17,185 @@
   <icon>rx//assets/img/favicons/favicon.ico</icon>
   <logo>rx//assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Proyetco Docker</title>
+    <link href="https://redesxuquer.github.io/rx/posts/ProyectoDocker/" rel="alternate" type="text/html" title="Proyetco Docker" />
+    <published>2025-02-23T05:00:00+00:00</published>
+  
+    <updated>2025-02-23T05:00:00+00:00</updated>
+  
+    <id>https://redesxuquer.github.io/rx/posts/ProyectoDocker/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/ProyectoDocker/" />
+    <author>
+      <name>Luis</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Demo" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Aquí tenemos un ejemplo de un proyecto sencillo donde trabajaremos con Docker y un script de Bash. Este proyecto consiste en crear un contenedor que ejecute un servidor web Nginx y un script de Bash que automatice las tareas relacionadas con la construcción, ejecución y limpieza del contenedor.
+
+
+
+Estructura del proyecto
+
+mi-proyecto-docker/
+├── Dockerfile
+├── index.html
+├── script.sh
+└── READM...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Crontab</title>
+    <link href="https://redesxuquer.github.io/rx/posts/Crontab/" rel="alternate" type="text/html" title="Crontab" />
+    <published>2025-02-23T05:00:00+00:00</published>
+  
+    <updated>2025-02-23T05:00:00+00:00</updated>
+  
+    <id>https://redesxuquer.github.io/rx/posts/Crontab/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/Crontab/" />
+    <author>
+      <name>Luis</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Demo" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      ¿Qué es crontab?
+
+crontab es una herramienta en sistemas Unix/Linux que permite programar tareas para que se ejecuten automáticamente en momentos específicos. Estas tareas, conocidas como cron jobs, son útiles para automatizar procesos como respaldos, actualizaciones, limpieza de archivos temporales, envío de correos, entre otros.
+
+
+
+¿Cómo funciona crontab?
+
+El sistema cron utiliza un archivo l...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Docker images</title>
+    <link href="https://redesxuquer.github.io/rx/posts/DockerImages/" rel="alternate" type="text/html" title="Docker images" />
+    <published>2025-02-23T04:00:00+00:00</published>
+  
+    <updated>2025-02-23T04:00:00+00:00</updated>
+  
+    <id>https://redesxuquer.github.io/rx/posts/DockerImages/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/DockerImages/" />
+    <author>
+      <name>Luis</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Demo" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Trabajar con Imágenes en Docker
+
+Las imágenes son plantillas inmutables que contienen todo lo necesario para ejecutar una aplicación, como el sistema operativo, las dependencias, las configuraciones y el código de la aplicación. A continuación, se explica cómo trabajar con imágenes en Docker.
+
+
+
+1. Buscar imágenes en Docker Hub
+Docker Hub es un repositorio público donde puedes encontrar imágene...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Introducción a redes SI</title>
+    <link href="https://redesxuquer.github.io/rx/posts/PacketTracer-copy/" rel="alternate" type="text/html" title="Introducción a redes SI" />
+    <published>2025-02-03T04:00:00+00:00</published>
+  
+    <updated>2025-02-03T04:00:00+00:00</updated>
+  
+    <id>https://redesxuquer.github.io/rx/posts/PacketTracer-copy/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/PacketTracer-copy/" />
+    <author>
+      <name>Luis</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Demo" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Introducción sobre Redes
+
+1. ¿Qué es una red?
+Una red es un conjunto de dispositivos (computadoras, servidores, impresoras, etc.) interconectados para compartir recursos, información y servicios. Estas conexiones pueden ser físicas (cables) o inalámbricas.
+
+
+
+2. Tipos de redes
+
+  LAN (Local Area Network): Red de área local, conecta dispositivos en un espacio reducido (oficina, casa).
+  WAN (Wid...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -59,176 +238,6 @@ Una red es un conjunto de dispositivos (computadoras, servidores, impresoras, et
 
   LAN (Local Area Network): Red de área local, conecta dispositivos en un espacio reducido (oficina, casa).
   WAN (Wid...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>¿Qué es FTP y cómo funciona?</title>
-    <link href="https://redesxuquer.github.io/rx/posts/ComandosFTP/" rel="alternate" type="text/html" title="¿Qué es FTP y cómo funciona?" />
-    <published>2024-12-16T04:00:00+00:00</published>
-  
-    <updated>2024-12-16T04:00:00+00:00</updated>
-  
-    <id>https://redesxuquer.github.io/rx/posts/ComandosFTP/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/ComandosFTP/" />
-    <author>
-      <name>Luis</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Demo" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      ¿Qué es FTP y cómo funciona?
-
-
-
-Trabajar con un servidor FTP (File Transfer Protocol) a través de la línea de comandos es una habilidad útil para transferir archivos entre tu computadora local y un servidor remoto. FTP es un protocolo estándar de red que permite la transferencia de archivos en una red TCP/IP, como Internet. A continuación, te explico en detalle cómo trabajar con un servidor FTP...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>SSH y utilización</title>
-    <link href="https://redesxuquer.github.io/rx/posts/SSH-comandos/" rel="alternate" type="text/html" title="SSH y utilización" />
-    <published>2024-12-16T04:00:00+00:00</published>
-  
-    <updated>2024-12-16T04:00:00+00:00</updated>
-  
-    <id>https://redesxuquer.github.io/rx/posts/SSH-comandos/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/SSH-comandos/" />
-    <author>
-      <name>Luis</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Demo" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      SSH (Secure Shell): Explicación y Funcionamiento
-
-
-
-SSH (Secure Shell) es un protocolo de red que permite la administración segura y la comunicación entre dos sistemas informáticos, generalmente un cliente y un servidor. SSH se utiliza principalmente para acceder de forma remota a sistemas, gestionar servidores, transferir archivos y ejecutar comandos en una máquina remota a través de un canal ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Directorios y permisos en Linux</title>
-    <link href="https://redesxuquer.github.io/rx/posts/Directorios-Permisos-Linux/" rel="alternate" type="text/html" title="Directorios y permisos en Linux" />
-    <published>2024-12-08T04:00:00+00:00</published>
-  
-    <updated>2024-12-08T04:00:00+00:00</updated>
-  
-    <id>https://redesxuquer.github.io/rx/posts/Directorios-Permisos-Linux/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/Directorios-Permisos-Linux/" />
-    <author>
-      <name>Luis</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Demo" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Directorios en Linux
-
-En Linux, un directorio (directory) es una estructura de archivo que contiene otros archivos y directorios. Los directorios pueden contener archivos, directorios, links simbólicos, etc. En este artículo, te explicaremos qué son los directorios en Linux, cómo se utilizan y cómo funcionan.
-
-Tipos de Directorios
-
-Existen varios tipos de directorios en Linux:
-
-
-  Directorio ra...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Comandos básicos de Linux</title>
-    <link href="https://redesxuquer.github.io/rx/posts/Comandos-Linux-Basicos/" rel="alternate" type="text/html" title="Comandos básicos de Linux" />
-    <published>2024-12-02T04:00:00+00:00</published>
-  
-    <updated>2024-12-02T04:00:00+00:00</updated>
-  
-    <id>https://redesxuquer.github.io/rx/posts/Comandos-Linux-Basicos/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/Comandos-Linux-Basicos/" />
-    <author>
-      <name>Luis</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Demo" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Comandos Básicos de Linux
-
-Navegación y Gestión de Archivos
-
-
-  cd: Cambia el directorio actual (cd /home/user cambia al directorio /home/user)
-  pwd: Muestra la ruta del directorio actual
-  ls: Lista los archivos y carpetas del directorio actual
-  mkdir: Crea un nuevo directorio (mkdir mydir crea un nuevo directorio llamado mydir)
-  rmdir: Borra un directorio vacío (rmdir mydir borra el direct...
     </summary>
   
 
