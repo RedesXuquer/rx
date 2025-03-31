@@ -4,7 +4,7 @@
   <id>https://redesxuquer.github.io/rx/</id>
   <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-03-24T06:16:58+00:00</updated>
+  <updated>2025-03-31T05:07:41+00:00</updated>
   <author>
     <name>your_full_name</name>
     <uri>https://redesxuquer.github.io/rx/</uri>
@@ -17,6 +17,44 @@
   <icon>rx//assets/img/favicons/favicon.ico</icon>
   <logo>rx//assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Proxmox</title>
+    <link href="https://redesxuquer.github.io/rx/posts/Proxmox/" rel="alternate" type="text/html" title="Proxmox" />
+    <published>2025-03-31T05:00:00+00:00</published>
+  
+    <updated>2025-03-31T05:00:00+00:00</updated>
+  
+    <id>https://redesxuquer.github.io/rx/posts/Proxmox/</id>
+    <content src="https://redesxuquer.github.io/rx/posts/Proxmox/" />
+    <author>
+      <name>Luis</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Demo" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      ¿Qué es Proxmox?
+
+Proxmox es una plataforma de virtualización de código abierto basada en Linux que permite gestionar máquinas virtuales (VMs), contenedores y almacenamiento en red de manera centralizada. Está diseñada para facilitar la administración de entornos de virtualización y es ampliamente utilizada en entornos empresariales y domésticos debido a su flexibilidad, robustez y facilidad de...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -161,52 +199,6 @@ Docker Hub es un repositorio público donde puedes encontrar imágene...
   
     <id>https://redesxuquer.github.io/rx/posts/PacketTracer-copy/</id>
     <content src="https://redesxuquer.github.io/rx/posts/PacketTracer-copy/" />
-    <author>
-      <name>Luis</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Demo" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Introducción sobre Redes
-
-1. ¿Qué es una red?
-Una red es un conjunto de dispositivos (computadoras, servidores, impresoras, etc.) interconectados para compartir recursos, información y servicios. Estas conexiones pueden ser físicas (cables) o inalámbricas.
-
-
-
-2. Tipos de redes
-
-  LAN (Local Area Network): Red de área local, conecta dispositivos en un espacio reducido (oficina, casa).
-  WAN (Wid...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Introducción a redes SI</title>
-    <link href="https://redesxuquer.github.io/rx/posts/redesBasico/" rel="alternate" type="text/html" title="Introducción a redes SI" />
-    <published>2025-02-03T04:00:00+00:00</published>
-  
-    <updated>2025-02-03T04:00:00+00:00</updated>
-  
-    <id>https://redesxuquer.github.io/rx/posts/redesBasico/</id>
-    <content src="https://redesxuquer.github.io/rx/posts/redesBasico/" />
     <author>
       <name>Luis</name>
     </author>
